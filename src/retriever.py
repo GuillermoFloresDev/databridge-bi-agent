@@ -53,7 +53,8 @@ def embed_query(query: str) -> np.ndarray:
     return np.array(response.embeddings.float, dtype=np.float32)
 
 
-def retrieve(query: str, top_k: int = 5) -> list"""
+def retrieve(query: str, top_k: int = 5) -> list:
+    """
     Retrieves the most relevant chunks for a query.
     """
     chunks, doc_embeddings = load_index()
