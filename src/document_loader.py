@@ -8,7 +8,7 @@ def load_pdf_text(pdf_path: Path) -> list[dict]:
 
     Returns a list of dictionaries with:
     - source
-   - text
+    - text
     """
     reader = PdfReader(str(pdf_path))
     pages = []
@@ -29,7 +29,8 @@ def load_pdf_text(pdf_path: Path) -> list[dict]:
     return pages
 
 
-def load_documents_from_folder(folder_path: str = "docs") -> list"""
+def load_documents_from_folder(folder_path: str = "docs") -> list:
+    """
     Loads all PDF files from the docs folder.
     """
     folder = Path(folder_path)
