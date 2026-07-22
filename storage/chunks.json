@@ -1,0 +1,992 @@
+[
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Manual de Onboarding para\n Nuevos Consultores BI\n Guía institucional y operativa para integrarse a proyectos de Business\n Intelligence, datos y analítica empresarial.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nPeople & Analytics Delivery\nClasificación\nInterno - Confidencial\nPropietario del Documento\nPeople Business Partner & BI Delivery Lead\nPróxima Revisión\nEnero de 2027\nEste manual acompaña los primeros 90 días del consultor BI y establece las prácticas\nmínimas para trabajar con calidad, seguridad y foco en negocio."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Bienvenida institucional y cultura de DataBridge\n2. Estructura del equipo y roles\n3. Día 1 - accesos, cuentas y canales\n4. Herramientas internas y entorno de trabajo\n5. Flujo de trabajo en proyectos BI\n6. Estándares básicos de documentación\n7. Seguridad y confidencialidad desde el primer día\n8. Plan 30/60/90 días\n9. Comunicación con clientes y stakeholders\n10. Proceso de revisión y entrega\n11. Checklist de onboarding - semana 1\n12. Beneficios, aprendizaje y desarrollo profesional\n13. Contactos útiles\n14. Preguntas frecuentes\n15. Disposiciones finales y revisión del documento"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - BIENVENIDA INSTITUCIONAL Y CULTURA DE\nDATABRIDGE\n1.1 Mensaje de bienvenida\nBienvenido o bienvenida a DataBridge BI Solutions. Si estás leyendo este manual, significa que te\nincorporas a una empresa dedicada a convertir datos en decisiones confiables. Nuestro trabajo no\nconsiste únicamente en crear reportes: ayudamos a organizaciones a entender su negocio con\nclaridad, trazabilidad y criterio analítico.\nDurante tus primeros días tendrás acompañamiento de tu líder, tu buddy y el equipo de proyecto. No\nse espera que sepas todo desde el primer día. Sí se espera curiosidad, responsabilidad, comunicación\nclara y disposición para documentar lo que aprendes.\nEn DataBridge, preguntar es una práctica profesional. Documentar una respuesta útil es\nuna forma de mejorar la empresa.\n1.2 Nuestra misión\nDiseñar soluciones de Business Intelligence y analítica empresarial que transformen datos dispersos en\ninformación confiable, accionable y segura para la toma de decisiones.\n1.3 Valores de trabajo\nValor\nSignificado práctico\nConfianza en los datos\nNo entregamos métricas"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "ue transformen datos dispersos en\ninformación confiable, accionable y segura para la toma de decisiones.\n1.3 Valores de trabajo\nValor\nSignificado práctico\nConfianza en los datos\nNo entregamos métricas sin validación y trazabilidad.\nClaridad antes que\ncomplejidad\nPreferimos modelos simples, explicables y mantenibles.\nOrientación a negocio\nToda solución debe responder a una necesidad real del cliente.\nColaboración sin ego\nLas ideas se evalúan por evidencia, no por jerarquía.\nDocumentación viva\nLo que se aprende debe quedar disponible para el equipo.\nSeguridad por defecto\nProtegemos información sensible desde el diseño.\nMejora continua\nCada proyecto debe dejar aprendizajes para el siguiente.\n1.4 Cómo trabajamos\n- Modelo híbrido o remoto según cliente y proyecto.\n- Sprints de 1 o 2 semanas para proyectos iterativos.\n- Reuniones de refinamiento, seguimiento, validación y retrospectiva.\n- Documentación centralizada en repositorio o espacio aprobado.\n- Comunicación diaria por Teams, Slack o canal definido por el proyecto.\nSECCIÓN 2 - ESTRUCTURA DEL EQUIPO Y ROLES\n2.1 Chapters y prácticas\nDataBridge organiza sus capacidades por prácticas especializadas que colaboran en squads de\nproyecto."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "anal definido por el proyecto.\nSECCIÓN 2 - ESTRUCTURA DEL EQUIPO Y ROLES\n2.1 Chapters y prácticas\nDataBridge organiza sus capacidades por prácticas especializadas que colaboran en squads de\nproyecto.\nPráctica\nResponsabilidades\nBusiness Analysis\nLevantamiento de requerimientos, reglas de negocio, validación funcional y\ncomunicación con stakeholders."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 4\nPráctica\nResponsabilidades\nData Engineering\nIngesta, transformación, calidad, orquestación y disponibilidad de datos.\nAnalytics Engineering\nPreparación de hechos, dimensiones, catálogos de métricas y linaje analítico.\nBI Development\nModelos semánticos, DAX, reportes, apps y experiencia de consumo.\nBI Architecture\nEstándares, revisión de modelos críticos y decisiones de arquitectura.\nBI Operations\nMonitoreo, soporte, incidentes, refresh y continuidad operativa.\n2.2 Roles principales\nRol\nDescripción\nBusiness Analyst\nTraduce necesidades de negocio en requerimientos, criterios de aceptación y\nreglas funcionales.\nBI Developer\nConstruye modelos semánticos, medidas DAX y reportes en Power BI.\nData Engineer\nConstruye pipelines, integra fuentes y automatiza procesos de datos.\nAnalytics Engineer\nDiseña estructuras analíticas, facts, dimensions y métricas reutilizables.\nData Architect / BI Architect\nDefine arquitectura, estándares y revisa soluciones críticas.\nProject Lead\nCoordina alcance, tiempos, riesgos, comunicación y entregables.\n2.3 Niveles de seniority\nNivel\nExpecta"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "chitect / BI Architect\nDefine arquitectura, estándares y revisa soluciones críticas.\nProject Lead\nCoordina alcance, tiempos, riesgos, comunicación y entregables.\n2.3 Niveles de seniority\nNivel\nExpectativa\nJunior\nAprende estándares, ejecuta tareas definidas y solicita revisión frecuente.\nSemi-Senior\nEntrega componentes con autonomía, participa en revisión técnica y propone\nmejoras.\nSenior\nDiseña soluciones, mentoriza, valida arquitectura y gestiona riesgos complejos.\nLead\nAlinea equipos, estándares, cliente, calidad y decisiones técnicas.\nSECCIÓN 3 - DÍA 1 - ACCESOS, CUENTAS Y CANALES\n3.1 Accesos iniciales\nSistema\nUso\nSolicitante\nCorreo corporativo\nComunicación, calendario y credenciales iniciales.\nPeople / IT\nTeams o Slack\nComunicación interna y canales de proyecto.\nPeople / Project Lead\nSharePoint / OneDrive\nDocumentación interna y entregables.\nIT\nGitHub / Repositorio\nVersionado de scripts, documentación y artefactos.\nTech Lead\nPower BI Service\nPublicación, revisión y consumo de reportes.\nBI Admin\nJira / Planner / Azure\nDevOps\nSeguimiento de tareas e incidencias.\nProject Lead\nVPN / Gateway\nAcceso seguro a fuentes o redes autorizadas.\nIT / Cliente"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "tes.\nBI Admin\nJira / Planner / Azure\nDevOps\nSeguimiento de tareas e incidencias.\nProject Lead\nVPN / Gateway\nAcceso seguro a fuentes o redes autorizadas.\nIT / Cliente"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 5\n3.2 Canales recomendados\n#general\n#bi-delivery\n#data-engineering\n#powerbi\n#data-quality\n#bi-incidents\n#learning\nCanal específico del proyecto\n3.3 Regla de credenciales\nNunca compartas tu contraseña o token personal. Si alguien necesita acceso, debe\nsolicitarse por rol, grupo o cuenta de servicio autorizada.\nSECCIÓN 4 - HERRAMIENTAS INTERNAS Y ENTORNO DE\nTRABAJO\n4.1 Herramientas principales\nCategoría\nHerramientas\nBI\nPower BI Desktop, Power BI Service\nModelado\nDAX Studio, Tabular Editor\nTransformación\nPower Query, SQL, Dataflows, Microsoft Fabric según proyecto\nDocumentación\nSharePoint, Confluence, Markdown, README\nGestión\nJira, Planner, Azure DevOps o herramienta del cliente\nVersionado\nGitHub o repositorio aprobado\nComunicación\nTeams, Slack, correo corporativo\n4.2 Configuración mínima del consultor BI\n- Instalar Power BI Desktop actualizado.\n- Configurar acceso a Power BI Service.\n- Instalar DAX Studio si trabajará con performance o DAX avanzado.\n- Configurar repositorio de proyecto si aplica.\n- Validar accesos a documentación y canales.\n- Leer guías oficiales de"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "r BI Service.\n- Instalar DAX Studio si trabajará con performance o DAX avanzado.\n- Configurar repositorio de proyecto si aplica.\n- Validar accesos a documentación y canales.\n- Leer guías oficiales de Ingeniería de Datos y Modelado Semántico.\nSECCIÓN 5 - FLUJO DE TRABAJO EN PROYECTOS BI\n5.1 Flujo estándar\n1. Kickoff y entendimiento de negocio\n2. Levantamiento de requerimientos\n3. Identificación de fuentes\n4. Perfilamiento y validación inicial de datos\n5. Diseño de arquitectura y modelo\n6. Construcción de pipelines y modelo semántico\n7. Diseño de reporte\n8. Validación funcional\n9. Publicación controlada\n10. Capacitación, soporte y cierre"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 6\n5.2 Entregables por etapa\nEtapa\nEntregable\nRequerimientos\nDocumento de alcance, reglas de negocio y criterios de aceptación.\nDatos\nFuentes registradas, diccionario de datos y validaciones.\nModelo\nModelo semántico, medidas DAX y documentación de métricas.\nReporte\nDashboard, app o reporte thin validado.\nEntrega\nManual de uso, evidencias de prueba y acta de aceptación.\nOperación\nMonitoreo de refresh, soporte y plan de mantenimiento.\nSECCIÓN 6 - ESTÁNDARES BÁSICOS DE\nDOCUMENTACIÓN\n6.1 Documentación mínima por proyecto\n- Objetivo del proyecto.\n- Stakeholders y responsables.\n- Fuentes de datos.\n- Reglas de negocio.\n- Diccionario de datos.\n- Catálogo de métricas.\n- Arquitectura de solución.\n- Manual de usuario.\n- Checklist de publicación.\n- Limitaciones conocidas.\n6.2 Regla de trazabilidad\nToda métrica crítica debe poder responder: de dónde viene, cómo se transforma, quién la\nvalida y en qué reportes se usa.\n6.3 Nomenclatura documental\nYYYY-MM-DD_nombre_documento_vX.Y.ext\n2026-07-20_catalogo_metricas_ventas_v1.0.xlsx\n2026-07-20_readme_modelo_ventas_v1.0.md\nSECCIÓN 7 - S"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "la\nvalida y en qué reportes se usa.\n6.3 Nomenclatura documental\nYYYY-MM-DD_nombre_documento_vX.Y.ext\n2026-07-20_catalogo_metricas_ventas_v1.0.xlsx\n2026-07-20_readme_modelo_ventas_v1.0.md\nSECCIÓN 7 - SEGURIDAD Y CONFIDENCIALIDAD DESDE\nEL PRIMER DÍA\n7.1 Reglas obligatorias\n- No descargar datos sensibles a equipos personales sin autorización.\n- No compartir PBIX, Excel o CSV con datos sensibles por canales no autorizados.\n- No publicar capturas con información confidencial.\n- No incluir credenciales en scripts, notebooks, PBIX o documentación.\n- Usar grupos de acceso cuando sea posible.\n- Reportar inmediatamente accesos indebidos o exposición accidental."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 7\n7.2 Clasificación de información\nNivel\nEjemplo\nPúblico\nInformación comercial disponible externamente.\nInterno\nDocumentación de proceso sin datos sensibles.\nConfidencial\nVentas, márgenes, contratos, información de clientes.\nSensible\nDatos personales, salariales, bancarios o regulados.\n7.3 Uso de datos de cliente\nLos datos del cliente deben utilizarse únicamente para el propósito del proyecto. Cualquier\nreutilización, anonimización, copia o transferencia debe estar autorizada y documentada.\nSECCIÓN 8 - PLAN 30/60/90 DÍAS\n8.1 Primeros 30 días\n- Completar accesos y configuración de herramientas.\n- Leer documentación oficial de DataBridge.\n- Participar en reuniones de proyecto como observador activo.\n- Resolver tareas pequeñas con acompañamiento del buddy.\n- Documentar dudas frecuentes y aprendizajes.\n8.2 Días 30 a 60\n- Tomar ownership de componentes acotados.\n- Participar en validaciones funcionales.\n- Crear o modificar medidas DAX bajo revisión.\n- Actualizar documentación del proyecto.\n- Realizar análisis de calidad de datos con apoyo.\n8.3 Días 60 a 90\n- Entregar un"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "r en validaciones funcionales.\n- Crear o modificar medidas DAX bajo revisión.\n- Actualizar documentación del proyecto.\n- Realizar análisis de calidad de datos con apoyo.\n8.3 Días 60 a 90\n- Entregar una funcionalidad de extremo a extremo.\n- Participar en revisión de modelos o reportes.\n- Proponer mejora técnica o de documentación.\n- Presentar resultados a stakeholder interno o cliente.\n- Preparar plan de crecimiento junto al líder.\nNivel\nIndicador de éxito al día 90\nJunior\nContribuye a tareas definidas y entiende el flujo completo de proyecto.\nSemi-Senior\nEntrega componentes con autonomía y comunica riesgos.\nSenior\nDiseña soluciones, revisa trabajo de otros y propone mejoras.\nLead\nCoordina ejecución, calidad y comunicación con stakeholders."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 8\nSECCIÓN 9 - COMUNICACIÓN CON CLIENTES Y\nSTAKEHOLDERS\n9.1 Principios de comunicación\n- Comunicar avances con claridad y evidencia.\n- No prometer fechas sin validar capacidad y dependencias.\n- Explicar riesgos temprano, no al final.\n- Separar hechos, hipótesis y decisiones.\n- Usar lenguaje de negocio con usuarios finales y lenguaje técnico con equipos técnicos.\n9.2 Reuniones con cliente\n- Llegar con agenda clara.\n- Registrar acuerdos y pendientes.\n- Confirmar definiciones de métricas por escrito.\n- Evitar discusiones técnicas innecesarias si la audiencia es funcional.\n- Enviar resumen posterior cuando haya decisiones relevantes.\n9.3 Manejo de conflictos de datos\nCuando dos áreas presentan números distintos, el consultor no debe elegir una versión por intuición.\nDebe identificar fuentes, reglas, filtros, fechas de corte y responsables para llegar a una definición\noficial.\nSECCIÓN 10 - PROCESO DE REVISIÓN Y ENTREGA\n10.1 Revisión técnica\n- Modelo estrella validado.\n- Medidas DAX con nomenclatura oficial.\n- Campos técnicos ocultos.\n- RLS probado cuando aplica.\n- Perfor"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "l.\nSECCIÓN 10 - PROCESO DE REVISIÓN Y ENTREGA\n10.1 Revisión técnica\n- Modelo estrella validado.\n- Medidas DAX con nomenclatura oficial.\n- Campos técnicos ocultos.\n- RLS probado cuando aplica.\n- Performance revisada.\n- Documentación actualizada.\n10.2 Revisión funcional\n- KPI validado por Data Owner o usuario clave.\n- Filtros y cortes coinciden con reglas de negocio.\n- Visualizaciones responden preguntas del negocio.\n- Limitaciones conocidas fueron comunicadas."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 9\n10.3 Criterios para entregar\nCriterio\nCondición mínima\nCalidad de datos\nValidaciones críticas ejecutadas.\nModelo\nRelaciones y medidas revisadas.\nReporte\nNavegación y filtros probados.\nSeguridad\nPermisos y RLS validados.\nDocumentación\nREADME, diccionario o manual actualizados.\nAceptación\nStakeholder funcional confirma resultados.\nSECCIÓN 11 - CHECKLIST DE ONBOARDING - SEMANA 1\nCHECKLIST SEMANA 1\n[ ] Correo corporativo activo.\n[ ] Acceso a Teams/Slack y canales principales.\n[ ] Acceso a SharePoint o repositorio documental.\n[ ] Acceso a herramienta de gestión de tareas.\n[ ] Power BI Desktop instalado.\n[ ] Acceso a Power BI Service validado.\n[ ] DAX Studio instalado si aplica.\n[ ] Repositorio del proyecto clonado o disponible.\n[ ] Buddy asignado.\n[ ] Reunión inicial con líder completada.\n[ ] Guía de Ingeniería de Datos leída.\n[ ] Guía de Modelado Semántico leída.\n[ ] Arquitectura de Soluciones BI revisada.\n[ ] Políticas de seguridad comprendidas.\n[ ] Primera tarea asignada y registrada.\nSECCIÓN 12 - BENEFICIOS, APRENDIZAJE Y DESARROLLO\nPROFESIONAL\n12.1 Aprendizaje co"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "uitectura de Soluciones BI revisada.\n[ ] Políticas de seguridad comprendidas.\n[ ] Primera tarea asignada y registrada.\nSECCIÓN 12 - BENEFICIOS, APRENDIZAJE Y DESARROLLO\nPROFESIONAL\n12.1 Aprendizaje continuo\n- DataBridge promueve aprendizaje en Power BI, DAX, SQL, modelado dimensional, ingeniería de\ndatos y gobierno de datos.\n- Cada consultor debe mantener un plan de desarrollo trimestral.\n- Las certificaciones relevantes pueden ser priorizadas según rol y proyecto.\n- Las sesiones internas de aprendizaje deben documentarse para reutilización.\n12.2 Certificaciones recomendadas\nÁrea\nCertificaciones sugeridas\nPower BI\nMicrosoft PL-300 Power BI Data Analyst\nFabric / Data\nMicrosoft Fabric Analytics Engineer o certificaciones equivalentes\nDatos\nSQL, modelado dimensional, data engineering fundamentos\nAgilidad\nScrum, gestión de proyectos o Product Owner según rol"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 10\nSECCIÓN 13 - CONTACTOS ÚTILES\nSituación\nContacto recomendado\nProblemas de accesos\nIT Support / People\nDudas de proyecto\nProject Lead\nDudas técnicas Power BI\nBI Lead o buddy técnico\nDudas de datos o fuentes\nData Engineer asignado\nIncidente de reporte\nCanal #bi-incidents\nSituación personal o\nadministrativa\nPeople Business Partner\nEscalamiento con cliente\nProject Lead o Account Manager\nSECCIÓN 14 - PREGUNTAS FRECUENTES\nP: ¿Se espera que sea productivo en la primera semana?\nNo. La primera semana se enfoca en accesos, contexto, herramientas y primeras tareas guiadas. La\nproductividad plena depende del nivel y se espera progresivamente durante los primeros 90 días.\nP: ¿Puedo preguntar cosas básicas?\nSí. Preguntar a tiempo evita errores costosos. Si la respuesta puede servir a otros, documenta el\naprendizaje.\nP: ¿Puedo crear medidas DAX directamente en un reporte?\nSolo si el reporte no depende de un modelo compartido o si la medida es exploratoria. Las medidas\noficiales deben residir en el modelo semántico y seguir la guía de nomenclatura DAX.\nP: ¿Qué hago si encuentro"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "el reporte no depende de un modelo compartido o si la medida es exploratoria. Las medidas\noficiales deben residir en el modelo semántico y seguir la guía de nomenclatura DAX.\nP: ¿Qué hago si encuentro diferencias entre el reporte y la fuente?\nRegistra evidencia, identifica filtros y fechas de corte, revisa la definición de métrica y consulta al\nresponsable técnico o Data Owner antes de comunicar conclusiones.\nP: ¿Puedo usar Excel como fuente?\nSí, para ciertos escenarios, pero debe existir control de ubicación, plantilla, responsable, validación y\nfrecuencia. Los Excel personales no deben ser fuentes críticas productivas.\nP: ¿Qué hago si sospecho exposición de datos sensibles?\nReporta inmediatamente al líder del proyecto y al canal de incidentes. No borres evidencia ni intentes\nresolverlo en silencio.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEste manual entra en vigencia a partir de Julio de 2026 y aplica a todos los consultores BI, analistas,\ndesarrolladores y perfiles de datos que se incorporen a DataBridge BI Solutions."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 3,
+    "text": "dores y perfiles de datos que se incorporen a DataBridge BI Solutions."
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Manual de Onboarding Consultores BI\nInterno - Confidencial\nVersión 1.0.0 | Julio 2026\nPágina 11\n15.2 Responsabilidades\nRol\nResponsabilidad\nPeople Business Partner\nDistribuir este manual y mantener secciones de onboarding.\nBI Delivery Lead\nGarantizar que el onboarding técnico sea completado.\nProject Lead\nAsignar contexto, tareas iniciales y buddy cuando aplique.\nBuddy\nAcompañar dudas operativas y técnicas del nuevo integrante.\nNuevo consultor\nLeer la documentación, completar checklist y comunicar bloqueos.\n15.3 Ciclo de revisión\n- Revisión formal cada seis meses.\n- Actualización cuando cambien herramientas internas.\n- Actualización cuando cambie la estructura de equipos o roles.\n- Revisión posterior a feedback recurrente de nuevos ingresos.\n15.4 Historial de versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nPeople & Analytics Delivery\nVersión inicial del Manual de\nOnboarding para Nuevos\nConsultores BI.\n15.5 Declaración final\nTu trabajo en DataBridge impacta directamente en la confianza que nuestros clientes tienen sobre sus\ndatos. Cada requerimiento documentado, cada medida validada, cada fuente revisada y cada reporte\nentregado forman parte de esa"
+  },
+  {
+    "source": "01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 2,
+    "text": "pacta directamente en la confianza que nuestros clientes tienen sobre sus\ndatos. Cada requerimiento documentado, cada medida validada, cada fuente revisada y cada reporte\nentregado forman parte de esa confianza.\nBienvenido a DataBridge BI Solutions. Construimos puentes entre datos y decisiones."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Guía Oficial de Modelado\n Semántico y Power BI\n Estándares para modelos estrella, medidas DAX, seguridad,\nperformance, publicación y gobierno de modelos semánticos.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nBusiness Intelligence & Semantic Modeling\nClasificación\nInterno - Uso Técnico Restringido\nPropietario del Documento\nLead BI Architect\nPróxima Revisión\nEnero de 2027\nEste documento es la fuente oficial para construir, mantener y publicar modelos\nsemánticos reutilizables en Power BI dentro de DataBridge BI Solutions."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Introducción y filosofía de modelado semántico\n2. Principios fundamentales del modelado BI\n3. Arquitectura estándar de modelos Power BI\n4. Modelado estrella: hechos, dimensiones y granularidad\n5. Relaciones, cardinalidad y dirección de filtro\n6. Tabla calendario y análisis temporal\n7. Estándares de medidas DAX\n8. Convenciones de nomenclatura para medidas DAX\n9. Organización del modelo semántico\n10. Performance, optimización y buenas prácticas\n11. Seguridad, RLS y privacidad\n12. Publicación, certificación y ciclo de vida\n13. Validación funcional y criterios de aceptación\n14. Checklist antes de publicar un modelo\n15. Disposiciones finales y revisión del documento"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - INTRODUCCIÓN Y FILOSOFÍA DE\nMODELADO SEMÁNTICO\n1.1 Propósito del documento\nBienvenido o bienvenida a la Guía Oficial de Modelado Semántico y Power BI de DataBridge BI\nSolutions.\nEste documento define los estándares obligatorios para diseñar, construir, revisar, publicar y\nmantener modelos semánticos en Power BI. Su objetivo es asegurar que los modelos entregados por\nDataBridge sean confiables, consistentes, reutilizables, seguros, performantes y comprensibles para\nusuarios de negocio.\nLa alineación con esta guía es obligatoria para nuevos proyectos Power BI, refactorizaciones\nrelevantes, modelos semánticos compartidos, datasets certificados y soluciones analíticas que\nsoporten decisiones ejecutivas, financieras, comerciales u operativas.\nEsta guía debe leerse en conjunto con la Guía Oficial de Ingeniería de Datos, la Arquitectura de\nSoluciones BI y Mapa de Dominios Analíticos y el Protocolo de Incidentes de Datos y Reportes BI.\n1.2 Filosofía de modelado semántico\nEn DataBridge BI Solutions, un modelo semántico no es simplemente un"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "oluciones BI y Mapa de Dominios Analíticos y el Protocolo de Incidentes de Datos y Reportes BI.\n1.2 Filosofía de modelado semántico\nEn DataBridge BI Solutions, un modelo semántico no es simplemente una colección de tablas\nconectadas. Es la representación analítica del negocio. Un buen modelo traduce estructuras técnicas\nen conceptos comprensibles, reutilizables y gobernables.\nEl modelo semántico debe actuar como una capa central de confianza entre los datos preparados por\ningeniería y los reportes consumidos por negocio. Por eso, DataBridge prioriza modelos simples, bien\ndocumentados y orientados a métricas oficiales.\nRegla central:\nUn reporte puede ser reemplazado. Un modelo semántico confiable debe permanecer,\nescalar y ser reutilizado por múltiples reportes.\n1.3 Alcance\nEsta guía cubre diseño de modelos estrella, relaciones, DAX, nomenclatura de medidas, organización\nde campos, performance, seguridad RLS, publicación, validación y mantenimiento. No cubre en\ndetalle diseño visual de dashboards ni procesos de ingeniería de datos previos a la capa semántica."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "dashboards ni procesos de ingeniería de datos previos a la capa semántica."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 4\nSECCIÓN 2 - PRINCIPIOS FUNDAMENTALES DEL\nMODELADO BI\nPrincipio\nDescripción\nModelo antes que visual\nLa calidad del reporte depende de la calidad del modelo. No se debe\ncompensar un mal modelo con cálculos visuales o transformaciones\ndispersas.\nMétrica única y oficial\nCada KPI crítico debe tener una definición única dentro del modelo semántico\no catálogo de métricas.\nSimplicidad sobre\ncomplejidad\nUn modelo sencillo, legible y estable es preferible a uno excesivamente\ngenérico o sobre-ingenierizado.\nReutilización\nLos modelos semánticos compartidos deben servir a múltiples reportes y\nequipos sin duplicar lógica.\nSeguridad por diseño\nLa seguridad de acceso, RLS y privacidad deben considerarse desde el diseño\ninicial.\nPerformance como requisito\nUn modelo que responde lentamente reduce adopción y confianza, aunque\nsea funcionalmente correcto.\nSECCIÓN 3 - ARQUITECTURA ESTÁNDAR DE MODELOS\nPOWER BI\n3.1 Flujo recomendado\nEl modelo semántico debe consumir datos desde capas confiables, preferiblemente Curated o tablas\nanalíticas preparadas por ingeniería"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "- ARQUITECTURA ESTÁNDAR DE MODELOS\nPOWER BI\n3.1 Flujo recomendado\nEl modelo semántico debe consumir datos desde capas confiables, preferiblemente Curated o tablas\nanalíticas preparadas por ingeniería de datos.\nFuentes de Datos\n      -> Raw / Staging / Curated\n      -> Tablas fact_ y dim_\n      -> Modelo Semántico Power BI\n      -> Reportes Thin Reports\n      -> Usuarios de Negocio\n3.2 Separación entre modelo y reporte\nDataBridge recomienda separar el modelo semántico de los reportes siempre que una solución sea\nreutilizable, crítica o mantenida por más de un equipo.\nElemento\nResponsabilidad\nModelo semántico\nRelaciones, medidas DAX, jerarquías, formato de campos, RLS, métricas\noficiales y documentación técnica.\nReporte\nVisualizaciones, navegación, experiencia de usuario, filtros, storytelling\nanalítico y consumo de medidas oficiales.\nThin report\nReporte liviano conectado a un modelo publicado, sin replicar lógica ni tablas\ninnecesarias.\n3.3 Cuándo crear un modelo compartido\n- Cuando varios reportes usan las mismas métricas.\n- Cuando el modelo contiene KPIs ejecutivos o financieros.\n- Cuando existen múltiples audiencias de negocio sobre el mismo dominio.\n- Cuando se necesita certific"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "ios reportes usan las mismas métricas.\n- Cuando el modelo contiene KPIs ejecutivos o financieros.\n- Cuando existen múltiples audiencias de negocio sobre el mismo dominio.\n- Cuando se necesita certificación o promoción del dataset.\n- Cuando la lógica DAX debe ser gobernada centralmente."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 5\nSECCIÓN 4 - MODELADO ESTRELLA: HECHOS,\nDIMENSIONES Y GRANULARIDAD\n4.1 Modelo estrella como estándar\nEl modelo estrella es el patrón recomendado para la mayoría de soluciones BI de DataBridge. Su\nestructura reduce ambigüedad, mejora performance y facilita el análisis por usuarios de negocio.\n                 dim_cliente\n                     |\ndim_producto - fact_ventas - dim_fecha\n                     |\n                dim_sucursal\n4.2 Tablas de hechos\nLas tablas de hechos almacenan eventos medibles. Deben tener granularidad definida, claves hacia\ndimensiones y valores numéricos agregables.\nfact_ventas\nfact_inventario\nfact_facturacion\nfact_pedidos\nfact_presupuesto\nfact_asistencia\n- No deben contener descripciones extensas de entidades.\n- Deben incluir claves hacia dimensiones.\n- Deben tener una fecha de evento o corte cuando aplique.\n- Deben evitar columnas calculadas innecesarias si la lógica corresponde a DAX.\n4.3 Tablas de dimensiones\nLas dimensiones describen el contexto de los hechos. Deben contener atributos descriptivos útiles\npara segm"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "r columnas calculadas innecesarias si la lógica corresponde a DAX.\n4.3 Tablas de dimensiones\nLas dimensiones describen el contexto de los hechos. Deben contener atributos descriptivos útiles\npara segmentar y filtrar métricas.\ndim_cliente\ndim_producto\ndim_fecha\ndim_sucursal\ndim_vendedor\ndim_canal\ndim_empleado\n- Deben tener una clave única.\n- Deben contener nombres amigables para negocio.\n- Deben evitar métricas transaccionales.\n- Deben incluir columnas de ordenamiento cuando sean necesarias.\n4.4 Granularidad\nToda tabla de hechos debe tener granularidad explícita y documentada. Está prohibido construir\ntablas fact sin indicar exactamente qué representa cada fila.\nTabla\nGranularidad esperada\nfact_ventas\nUna fila por línea de venta.\nfact_inventario\nUna fila por producto, sucursal y fecha de corte.\nfact_presupuesto\nUna fila por centro de costo, cuenta y periodo.\nfact_asistencia\nUna fila por empleado y día."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 6\nSECCIÓN 5 - RELACIONES, CARDINALIDAD Y DIRECCIÓN\nDE FILTRO\n5.1 Reglas generales\n- Preferir relaciones uno a muchos desde dimensiones hacia hechos.\n- Evitar relaciones muchos a muchos salvo justificación documentada.\n- Evitar dirección de filtro bidireccional por defecto.\n- No crear relaciones ambiguas entre tablas de hechos.\n- Validar integridad referencial antes de publicar.\n- Ocultar claves técnicas que no aportan valor al usuario final.\n5.2 Dirección de filtro\nLa dirección de filtro estándar es simple desde la dimensión hacia la tabla de hechos. La dirección\nbidireccional solo se permite cuando existe una necesidad analítica validada y no hay alternativa más\nsimple.\n5.3 Tablas puente\nLas tablas puente se utilizan para resolver escenarios muchos a muchos, especialmente\nsegmentaciones complejas o asignaciones múltiples. Deben nombrarse con el prefijo bridge_ y\ndocumentar su propósito.\nbridge_cliente_segmento\nbridge_producto_categoria\nbridge_usuario_region\nSECCIÓN 6 - TABLA CALENDARIO Y ANÁLISIS\nTEMPORAL\n6.1 Uso obligatorio de tabla calendari"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "efijo bridge_ y\ndocumentar su propósito.\nbridge_cliente_segmento\nbridge_producto_categoria\nbridge_usuario_region\nSECCIÓN 6 - TABLA CALENDARIO Y ANÁLISIS\nTEMPORAL\n6.1 Uso obligatorio de tabla calendario\nTodo modelo que incluya análisis temporal debe tener una tabla calendario oficial. No se deben usar\ndirectamente fechas transaccionales como eje temporal principal si se requieren cálculos de\ninteligencia de tiempo.\n6.2 Columnas recomendadas\nfecha\nanio\ntrimestre\nmes_numero\nmes_nombre\nanio_mes\nsemana\ndia\ndia_semana\nes_fin_de_semana\nes_dia_habil\nperiodo_fiscal\n6.3 Reglas\n- La tabla calendario debe cubrir todo el rango de fechas del modelo.\n- Debe marcarse como tabla de fechas cuando aplique.\n- Debe tener una columna fecha única y sin nulos.\n- Los nombres de meses deben ordenarse por número de mes.\n- Los calendarios fiscales deben documentar inicio y fin de periodo."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 7\nSECCIÓN 7 - ESTÁNDARES DE MEDIDAS DAX\n7.1 Principios de DAX en DataBridge\nLas medidas DAX son la capa donde se expresan métricas analíticas dinámicas. Deben ser claras,\nreutilizables, performantes y validadas funcionalmente.\n- Toda métrica de negocio debe implementarse como medida, no como columna calculada, salvo\njustificación técnica.\n- Las medidas críticas deben estar documentadas en el catálogo de métricas.\n- Las medidas deben usar nombres comprensibles para negocio.\n- Las medidas auxiliares deben ocultarse o agruparse en carpeta técnica.\n- La lógica DAX no debe duplicar reglas base que ya fueron definidas en ingeniería de datos.\n7.2 Medidas base\nLas medidas base son cálculos simples y reutilizables que sirven como fundamento para métricas más\ncomplejas.\nTotal Ventas = SUM(fact_ventas[monto_neto])\nCantidad Vendida = SUM(fact_ventas[cantidad_vendida])\nTotal Costos = SUM(fact_ventas[monto_costo])\nClientes = DISTINCTCOUNT(dim_cliente[cliente_id])\n7.3 Medidas derivadas\nLas medidas derivadas deben construirse a partir de medidas base, no repet"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "endida])\nTotal Costos = SUM(fact_ventas[monto_costo])\nClientes = DISTINCTCOUNT(dim_cliente[cliente_id])\n7.3 Medidas derivadas\nLas medidas derivadas deben construirse a partir de medidas base, no repetir agregaciones directas\ninnecesariamente.\nMargen Bruto = [Total Ventas] - [Total Costos]\n% Margen Bruto = DIVIDE([Margen Bruto], [Total Ventas])\nTicket Promedio = DIVIDE([Total Ventas], [Cantidad Transacciones])\n7.4 Uso de DIVIDE\nPara divisiones en DAX, DataBridge recomienda usar DIVIDE en lugar del operador / cuando exista\nposibilidad de división por cero o valores nulos.\nCorrecto:\n% Margen Bruto = DIVIDE([Margen Bruto], [Total Ventas])\nIncorrecto:\n% Margen Bruto = [Margen Bruto] / [Total Ventas]\nSECCIÓN 8 - CONVENCIONES DE NOMENCLATURA PARA\nMEDIDAS DAX\n8.1 Principios generales\n- Las medidas visibles para negocio deben escribirse en español claro.\n- No se permiten nombres genéricos como Medida 1, cálculo, prueba o total_final.\n- Las medidas porcentuales deben iniciar con el símbolo %.\n- Las medidas auxiliares deben iniciar con doble guion bajo o estar ocultas.\n- Los sufijos temporales deben usarse de forma consistente."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 3,
+    "text": "Las medidas auxiliares deben iniciar con doble guion bajo o estar ocultas.\n- Los sufijos temporales deben usarse de forma consistente."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 8\n8.2 Prefijos recomendados\nPrefijo\nUso\nEjemplo\nTotal\nSuma principal de una magnitud\n[Total Ventas]\nPromedio\nCálculo promedio\n[Promedio Ticket]\nCantidad\nSuma o conteo de unidades\n[Cantidad Vendida]\n#\nConteo de entidades\n[# Clientes Activos]\n%\nIndicador porcentual\n[% Margen Bruto]\nVar\nVariación absoluta\n[Var Ventas vs LY]\n% Var\nVariación porcentual\n[% Var Ventas vs LY]\n8.3 Sufijos oficiales\nSufijo\nSignificado\nEjemplo\nYTD\nAcumulado del año\n[Ventas YTD]\nMTD\nAcumulado del mes\n[Ventas MTD]\nQTD\nAcumulado del trimestre\n[Ventas QTD]\nLY\nAño anterior\n[Ventas LY]\nLM\nMes anterior\n[Ventas LM]\nvs LY\nComparación contra año anterior\n[% Var Ventas vs LY]\nRolling 12M\nVentana móvil de 12 meses\n[Ventas Rolling 12M]\n8.4 Ejemplos correctos e incorrectos\nCorrecto\nIncorrecto\n[Total Ventas]\n[ventas]\n[% Margen Bruto]\n[%]\n[Ventas YTD]\n[ventas_acum]\n[% Var Ventas vs LY]\n[ventas año pasado final ok]\n[__Ventas Base]\n[medida_aux]\n8.5 Medidas auxiliares\nLas medidas auxiliares se permiten cuando simplifican cálculos complejos, pero no deben exponerse\nal usuario final. Deben es"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "as año pasado final ok]\n[__Ventas Base]\n[medida_aux]\n8.5 Medidas auxiliares\nLas medidas auxiliares se permiten cuando simplifican cálculos complejos, pero no deben exponerse\nal usuario final. Deben estar ocultas o ubicadas en carpeta de visualización llamada Medidas Técnicas.\n__Ventas Base\n__Fecha Max Contexto\n__Clientes Contexto\n__Filtro Periodo Activo"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 9\n8.6 Carpetas de visualización\nVentas\nCostos\nMargen\nClientes\nInventario\nTiempo\nCalidad de Datos\nMedidas Técnicas\nSECCIÓN 9 - ORGANIZACIÓN DEL MODELO SEMÁNTICO\n9.1 Tabla de medidas\nLos modelos semánticos deben incluir una tabla dedicada para medidas cuando el volumen de\nmétricas sea medio o alto. El nombre recomendado es Medidas o _Medidas.\n9.2 Ocultamiento de campos\n- Ocultar claves técnicas sin valor analítico.\n- Ocultar columnas usadas solo para ordenamiento.\n- Ocultar columnas intermedias de cálculo.\n- Ocultar campos técnicos de auditoría salvo necesidad de análisis.\n9.3 Formato de campos\nTipo\nFormato recomendado\nImportes\nMoneda local o formato decimal con separador de miles\nPorcentajes\nPorcentaje con 1 o 2 decimales según necesidad\nCantidades\nNúmero entero o decimal según unidad\nFechas\nFormato regional validado con el cliente\nIDs\nTexto o entero sin agregación\n9.4 Descripciones\nLas medidas críticas deben incluir una descripción funcional en el modelo cuando la herramienta lo\npermita. La descripción debe explicar qué mide, fuente principal y"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "o sin agregación\n9.4 Descripciones\nLas medidas críticas deben incluir una descripción funcional en el modelo cuando la herramienta lo\npermita. La descripción debe explicar qué mide, fuente principal y condición relevante.\nSECCIÓN 10 - PERFORMANCE, OPTIMIZACIÓN Y BUENAS\nPRÁCTICAS\n10.1 Reglas generales\n- Reducir columnas no utilizadas.\n- Reducir cardinalidad cuando sea posible.\n- Evitar columnas calculadas innecesarias.\n- Preferir medidas sobre columnas calculadas para cálculos dinámicos.\n- Evitar relaciones bidireccionales innecesarias.\n- Eliminar tablas auxiliares temporales antes de publicar.\n- Validar tiempos de carga y respuesta con usuarios reales."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 10\n10.2 Cardinalidad\nColumnas con alta cardinalidad, como identificadores únicos, timestamps exactos o textos largos,\npueden afectar compresión y performance. Deben mantenerse solo si tienen uso analítico o técnico\njustificado.\n10.3 Uso de herramientas de diagnóstico\nPara modelos críticos, DataBridge recomienda validar performance mediante herramientas como\nPerformance Analyzer en Power BI Desktop, DAX Studio y Tabular Editor, según disponibilidad del\nproyecto.\n10.4 Buenas prácticas DAX\n- Reutilizar medidas base.\n- Evitar filtros complejos innecesarios dentro de CALCULATE.\n- Usar variables VAR para mejorar legibilidad.\n- Evitar iteradores sobre tablas grandes sin justificación.\n- Probar medidas críticas contra escenarios de negocio conocidos.\nMargen Bruto =\nVAR Ventas = [Total Ventas]\nVAR Costos = [Total Costos]\nRETURN\n    Ventas - Costos\nSECCIÓN 11 - SEGURIDAD, RLS Y PRIVACIDAD\n11.1 Principio de mínimo privilegio\nLos usuarios deben acceder únicamente a los datos necesarios para su rol. La seguridad no debe\ndepender solo de filtros visuales en"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "1 - SEGURIDAD, RLS Y PRIVACIDAD\n11.1 Principio de mínimo privilegio\nLos usuarios deben acceder únicamente a los datos necesarios para su rol. La seguridad no debe\ndepender solo de filtros visuales en reportes.\n11.2 Row-Level Security\nRLS debe aplicarse cuando un mismo modelo es consumido por usuarios con permisos diferenciados\npor región, unidad de negocio, cliente, sucursal, vendedor o centro de costo.\nEjemplos de reglas RLS:\n- Usuario regional ve únicamente su región.\n- Vendedor ve únicamente sus clientes asignados.\n- Gerente de sucursal ve únicamente su sucursal.\n- Dirección ve todas las regiones autorizadas.\n11.3 Validación de RLS\n- Probar cada rol con usuarios de ejemplo.\n- Verificar que usuarios sin asignación no accedan a datos.\n- Documentar matriz de acceso.\n- Validar con responsable de negocio antes de producción.\n- No exponer datos sensibles en columnas ocultas si el modelo puede ser analizado por usuarios\navanzados.\n11.4 Datos sensibles\nLos modelos que contienen datos personales, financieros o confidenciales deben aplicar\nenmascaramiento, agregación, ocultamiento o restricción de acceso según la clasificación definida\npor gobierno de datos."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 3,
+    "text": "ales, financieros o confidenciales deben aplicar\nenmascaramiento, agregación, ocultamiento o restricción de acceso según la clasificación definida\npor gobierno de datos."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 11\nSECCIÓN 12 - PUBLICACIÓN, CERTIFICACIÓN Y CICLO DE\nVIDA\n12.1 Ambientes\nToda solución relevante debe distinguir al menos Desarrollo y Producción. Para proyectos críticos se\nrecomienda incluir Testing o UAT.\nDesarrollo\nTesting / UAT\nProducción\n12.2 Publicación\n- No publicar modelos sin validación funcional.\n- No publicar modelos con medidas de prueba visibles.\n- No publicar modelos con credenciales personales no autorizadas.\n- No publicar modelos sin responsable de mantenimiento.\n- Registrar cambios relevantes en historial del proyecto.\n12.3 Certificación\nUn modelo puede proponerse como certificado cuando sus métricas son oficiales, su linaje es\nconocido, tiene responsable asignado, cumple estándares de calidad y es reutilizado por reportes\ncríticos.\n12.4 Ciclo de vida\nEstado\nDescripción\nBorrador\nModelo en construcción o exploración.\nEn Validación\nModelo listo para revisión funcional y técnica.\nPublicado\nModelo disponible para consumo controlado.\nCertificado\nModelo oficial aprobado para uso corporativo.\nObsoleto\nModelo reemplazado o pendiente"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 2,
+    "text": "Modelo listo para revisión funcional y técnica.\nPublicado\nModelo disponible para consumo controlado.\nCertificado\nModelo oficial aprobado para uso corporativo.\nObsoleto\nModelo reemplazado o pendiente de retiro.\nRetirado\nModelo removido de operación regular.\nSECCIÓN 13 - VALIDACIÓN FUNCIONAL Y CRITERIOS DE\nACEPTACIÓN\n13.1 Validación con negocio\nTodo modelo que soporte decisiones relevantes debe validarse con el responsable funcional del\ndominio. La validación debe comparar resultados contra fuentes esperadas, reportes existentes o\ncasos de prueba conocidos.\n13.2 Evidencia mínima\n- Listado de métricas validadas.\n- Captura o tabla de comparación contra fuente.\n- Fecha de validación.\n- Responsable de negocio aprobador.\n- Responsable técnico."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 12,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 12\n- Observaciones o limitaciones conocidas.\n13.3 Criterios de rechazo\n- Métricas críticas con diferencias no explicadas.\n- Relaciones ambiguas o inconsistentes.\n- Medidas DAX sin nomenclatura oficial.\n- Campos técnicos visibles innecesariamente.\n- RLS no probado.\n- Performance inaceptable para usuarios objetivo.\n- Ausencia de responsable de mantenimiento.\nSECCIÓN 14 - CHECKLIST ANTES DE PUBLICAR UN\nMODELO\nCHECKLIST DE PUBLICACIÓN DE MODELO SEMÁNTICO\n[ ] El modelo usa esquema estrella cuando aplica.\n[ ] Las tablas de hechos tienen granularidad documentada.\n[ ] Las dimensiones tienen claves únicas.\n[ ] Las relaciones son principalmente 1:* desde dimensiones hacia hechos.\n[ ] No existen relaciones ambiguas sin justificación.\n[ ] La tabla calendario está configurada cuando hay análisis temporal.\n[ ] Las medidas DAX siguen la nomenclatura oficial.\n[ ] Las medidas críticas fueron validadas con negocio.\n[ ] Las medidas auxiliares están ocultas o en carpeta técnica.\n[ ] Los campos técnicos innecesarios están ocultos.\n[ ] Los formatos numéricos y porce"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 12,
+    "chunk_id": 2,
+    "text": "Las medidas críticas fueron validadas con negocio.\n[ ] Las medidas auxiliares están ocultas o en carpeta técnica.\n[ ] Los campos técnicos innecesarios están ocultos.\n[ ] Los formatos numéricos y porcentuales fueron revisados.\n[ ] El modelo no contiene tablas temporales o de prueba visibles.\n[ ] La seguridad RLS fue probada cuando aplica.\n[ ] La performance fue revisada en páginas críticas.\n[ ] El linaje de métricas críticas está documentado.\n[ ] El responsable técnico está definido.\n[ ] El responsable de negocio está definido.\n[ ] El modelo fue publicado en el workspace correcto.\n[ ] El historial de cambios fue actualizado.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEsta guía entra en vigencia a partir de Julio de 2026 y aplica a todos los modelos semánticos nuevos\ndesarrollados por DataBridge BI Solutions. Los modelos existentes deberán adoptar estos estándares\nprogresivamente, priorizando modelos ejecutivos, financieros, compartidos y con incidentes\nrecurrentes de calidad o performance."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 12,
+    "chunk_id": 3,
+    "text": "urrentes de calidad o performance."
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 13,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Modelado Semántico y Power BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 13\n15.2 Responsabilidades\nRol\nResponsabilidad\nLead BI Architect\nMantener y actualizar esta guía.\nBI Developer\nAplicar estándares de modelado, DAX, organización y publicación.\nAnalytics Engineer\nGarantizar coherencia entre capa curada y modelo semántico.\nBusiness Analyst\nValidar definiciones funcionales y criterios de aceptación.\nData Owner\nAprobar métricas críticas y reglas de acceso.\nProject Lead\nAsegurar cumplimiento del checklist antes de entrega.\n15.3 Ciclo de revisión\n- Revisión formal cada seis meses.\n- Actualización extraordinaria ante cambios en Power BI o Microsoft Fabric.\n- Revisión posterior a incidentes críticos relacionados con métricas, RLS o performance.\n- Propuestas de mejora mediante backlog interno de documentación.\n15.4 Historial de versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nLead BI Architect\nVersión inicial de la Guía Oficial de\nModelado Semántico y Power BI.\n15.5 Declaración final\nUn modelo semántico bien diseñado convierte datos en lenguaje de negocio. En DataBridge BI\nSolutions, modelar no significa solo c"
+  },
+  {
+    "source": "02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf",
+    "page": 13,
+    "chunk_id": 2,
+    "text": "Guía Oficial de\nModelado Semántico y Power BI.\n15.5 Declaración final\nUn modelo semántico bien diseñado convierte datos en lenguaje de negocio. En DataBridge BI\nSolutions, modelar no significa solo conectar tablas, sino construir una capa confiable, gobernada y\nreutilizable para que las decisiones se tomen sobre métricas claras y consistentes.\nLa confianza en los datos se construye en el modelo. Por eso, cada relación, medida,\nformato, regla de seguridad y publicación debe tratarse como una decisión de arquitectura\nanalítica."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Guía Oficial de Ingeniería de\n Datos\n Estándares técnicos para pipelines, calidad, transformación,\n seguridad, linaje y entrega de soluciones analíticas.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nData Engineering & Analytics Engineering\nClasificación\nInterno - Uso Técnico Restringido\nPropietario del Documento\nLead Data Engineer\nPróxima Revisión\nEnero de 2027\nEste documento debe ser tratado como la fuente oficial para el diseño y operación de\nprocesos de ingeniería de datos en DataBridge BI Solutions."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Introducción y Filosofía de Ingeniería de Datos\n2. Principios Fundamentales de DataBridge BI Solutions\n3. Arquitectura de Capas de Datos\n4. Fuentes de Datos e Ingesta\n5. Transformación y Preparación de Datos\n6. Calidad de Datos\n7. Modelado Analítico para BI\n8. Orquestación, Actualización y Monitoreo\n9. Seguridad, Privacidad y Gobierno de Datos\n10. Convenciones de Nomenclatura\n11. Documentación, Linaje y Catálogo de Datos\n12. Estándares de Entrega de Pipelines\n13. Checklist Técnico Antes de Publicar\n14. Relación con Modelos Semánticos y Power BI\n15. Disposiciones Finales y Revisión del Documento"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - INTRODUCCIÓN Y FILOSOFÍA DE\nINGENIERÍA DE DATOS\n1.1 Propósito del Documento\nBienvenido o bienvenida a la Guía Oficial de Ingeniería de Datos de DataBridge BI Solutions.\nEste documento constituye la fuente oficial de estándares técnicos para el diseño, desarrollo,\nmantenimiento y operación de soluciones de datos dentro de DataBridge BI Solutions. Su objetivo es\ngarantizar que los pipelines, procesos de ingesta, transformaciones, modelos analíticos y datasets\nentregados a clientes internos y externos sean confiables, trazables, escalables, seguros y\nsostenibles en el tiempo.\nLa alineación con esta guía es obligatoria para todos los proyectos nuevos de ingeniería de datos,\nanalítica empresarial, modernización de reporting, migración desde Excel, implementación de Power\nBI, Microsoft Fabric, data warehouses y soluciones de autoservicio analítico.\nLos lineamientos aquí definidos aplican a:\n- Data Engineers.\n- Analytics Engineers.\n- BI Developers.\n- Business Analysts.\n- Data Architects.\n- Project Leads.\n- Consultores externos asignados a proyecto"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "os lineamientos aquí definidos aplican a:\n- Data Engineers.\n- Analytics Engineers.\n- BI Developers.\n- Business Analysts.\n- Data Architects.\n- Project Leads.\n- Consultores externos asignados a proyectos de DataBridge.\n- Equipos de soporte y mantenimiento de soluciones BI.\nEste documento debe entenderse como una pieza central del ecosistema documental de DataBridge\nBI Solutions y debe leerse en conjunto con la Guía Oficial de Modelado Semántico y Power BI, la\nArquitectura de Soluciones BI y Mapa de Dominios Analíticos y el Protocolo de Incidentes de Datos y\nReportes BI.\n1.2 Filosofía de Ingeniería de Datos en DataBridge\nEn DataBridge BI Solutions, entendemos la ingeniería de datos como la disciplina encargada de\ntransformar datos dispersos, inconsistentes y operativos en activos analíticos confiables para la toma\nde decisiones.\nUn dashboard elegante no tiene valor si los datos que lo alimentan son incompletos, ambiguos,\ntardíos o imposibles de auditar. Por esta razón, la confiabilidad analítica comienza mucho antes de\nPower BI. Comienza en la fuente, en el proceso de ingesta, en la transformación, en la validación de\ncalidad, en la trazabilidad y en la correcta definición de las regl"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "alítica comienza mucho antes de\nPower BI. Comienza en la fuente, en el proceso de ingesta, en la transformación, en la validación de\ncalidad, en la trazabilidad y en la correcta definición de las reglas de negocio.\nNuestra filosofía se resume en cinco ideas fundamentales:\nPrincipio\nDescripción práctica\nLos datos son un producto\nCada dataset debe tener consumidores definidos, documentación,\nresponsable, criterios de calidad y ciclo de vida.\nLa calidad se diseña\nLos controles de calidad deben formar parte del pipeline desde su diseño\ninicial.\nLa trazabilidad es obligatoria\nTodo dato usado en un reporte debe poder rastrearse hasta su fuente\noriginal y regla de transformación.\nLa automatización reduce riesgo\nLos procesos manuales repetitivos son una fuente frecuente de errores y\ndeben automatizarse."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 4\nPrincipio\nDescripción práctica\nEl dato debe ser comprensible\nUna solución debe ser robusta para tecnología y comprensible para\nnegocio.\n1.3 Alcance del Documento\nEsta guía cubre los estándares relacionados con arquitectura de capas de datos, ingesta desde\nfuentes internas y externas, transformación, calidad, modelado analítico previo a Power BI,\norquestación, seguridad, nomenclatura técnica, documentación, linaje y entrega de pipelines.\nNo cubre en detalle el diseño visual de reportes Power BI, la nomenclatura completa de medidas DAX,\nestándares de UX para dashboards, gobierno corporativo completo o administración contractual de\nclientes. Estos temas se encuentran documentados en otros artefactos oficiales de DataBridge BI\nSolutions.\nSECCIÓN 2 - PRINCIPIOS FUNDAMENTALES DE\nDATABRIDGE BI SOLUTIONS\n2.1 Data as a Product\nTodo dataset entregado por DataBridge debe tratarse como un producto de datos. Esto significa que\nno basta con que una tabla exista o que un pipeline ejecute correctamente. El dataset debe tener\npropósito, consumidores, documentación, res"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "debe tratarse como un producto de datos. Esto significa que\nno basta con que una tabla exista o que un pipeline ejecute correctamente. El dataset debe tener\npropósito, consumidores, documentación, responsable, criterios de aceptación y reglas de\nmantenimiento.\nUn producto de datos debe responder claramente:\n- ¿Para qué existe?\n- ¿Quién lo consume?\n- ¿Qué decisiones permite tomar?\n- ¿Cuál es su fuente oficial?\n- ¿Con qué frecuencia se actualiza?\n- ¿Quién valida su calidad?\n- ¿Qué reglas de negocio contiene?\n- ¿Qué limitaciones conocidas tiene?\nEn DataBridge está prohibido entregar datasets críticos sin responsable funcional y sin\ndocumentación mínima.\n2.2 Single Source of Truth\nCada indicador crítico de negocio debe contar con una única fuente oficial. La existencia de múltiples\nversiones de una misma métrica genera confusión, pérdida de confianza y discusiones innecesarias\nentre áreas.\nRegla oficial:\nSi una métrica se usa para tomar decisiones ejecutivas, debe existir una definición única\ny aprobada.\n2.3 Data Quality by Design\nLa calidad de datos debe incorporarse desde el diseño del pipeline. No debe tratarse como una etapa\nsecundaria ni como una revisión manual posterior."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "ica\ny aprobada.\n2.3 Data Quality by Design\nLa calidad de datos debe incorporarse desde el diseño del pipeline. No debe tratarse como una etapa\nsecundaria ni como una revisión manual posterior."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 5\nTodo pipeline crítico debe incluir controles automáticos de calidad sobre completitud, unicidad,\nvalidez, consistencia, precisión, oportunidad e integridad referencial.\n2.4 Lineage First\nTodo dato debe ser trazable desde su punto de origen hasta su consumo final. En DataBridge, ningún\ncampo crítico puede ser usado en un dashboard sin que se conozca su sistema fuente,\ntransformación y consumo final.\n2.5 Security by Default\nLa seguridad debe estar presente por defecto en todas las soluciones de datos. Esto incluye la\ngestión segura de credenciales, separación de ambientes, control de accesos, clasificación de\ninformación sensible y aplicación del principio de mínimo privilegio.\n2.6 Automation over Manual Work\nLos procesos manuales son aceptables únicamente en etapas exploratorias o de prototipado. En\nsoluciones productivas, todo proceso recurrente debe automatizarse.\nEjemplos de procesos que deben automatizarse:\n- Carga de archivos recurrentes.\n- Validaciones de calidad.\n- Actualizaciones de datasets.\n- Notificaciones de error.\n- Registro de logs.\n- Ejec"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "atizarse.\nEjemplos de procesos que deben automatizarse:\n- Carga de archivos recurrentes.\n- Validaciones de calidad.\n- Actualizaciones de datasets.\n- Notificaciones de error.\n- Registro de logs.\n- Ejecución de dependencias.\n- Generación de snapshots.\n- Control de fechas de corte.\nSECCIÓN 3 - ARQUITECTURA DE CAPAS DE DATOS\n3.1 Visión General\nLas soluciones de datos de DataBridge deben organizarse por capas. El objetivo es separar\nresponsabilidades, facilitar el mantenimiento, mejorar la trazabilidad y evitar que la lógica de negocio\nquede distribuida de forma desordenada entre archivos, consultas, modelos y reportes.\nFuentes de Datos\n      ->\nLanding / Raw\n      ->\nStaging\n      ->\nCurated\n      ->\nSemantic Layer\n      ->\nPower BI Reports\n3.2 Capa de Fuentes de Datos\nLa capa de fuentes representa los sistemas, archivos o servicios desde los cuales se extraen los datos\noriginales.\n- SQL Server\n- PostgreSQL\n- MySQL"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 6\n- Oracle Database\n- Archivos Excel\n- Archivos CSV\n- APIs REST\n- SharePoint\n- OneDrive\n- ERP\n- CRM\n- Sistemas contables\n- Sistemas de RRHH\n3.3 Capa Landing / Raw\nLa capa Landing o Raw almacena los datos tal como llegan desde la fuente, con la menor\ntransformación posible.\n- Preservar una copia cercana al origen.\n- Facilitar auditoría.\n- Permitir reprocesamiento.\n- Comparar datos procesados contra datos originales.\n- Investigar diferencias o errores.\nraw_ventas_pos\nraw_clientes_crm\nraw_inventario_erp\nraw_transacciones_ecommerce\nraw_tipo_cambio_banco_central\n3.4 Capa Staging\nLa capa Staging prepara los datos para su transformación analítica. Aquí se corrigen tipos simples, se\nrenombran campos técnicos, se normalizan formatos y se aplican limpiezas básicas.\n- Estandarizar nombres de columnas.\n- Convertir tipos de datos.\n- Eliminar registros técnicamente inválidos.\n- Normalizar fechas.\n- Homologar códigos.\n- Separar datos válidos de datos rechazados.\nstg_ventas\nstg_clientes\nstg_productos\nstg_sucursales\nstg_movimientos_inventario\n3.5 Capa Curated\nLa capa Cur"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "dos.\n- Normalizar fechas.\n- Homologar códigos.\n- Separar datos válidos de datos rechazados.\nstg_ventas\nstg_clientes\nstg_productos\nstg_sucursales\nstg_movimientos_inventario\n3.5 Capa Curated\nLa capa Curated contiene datos limpios, integrados y preparados para consumo analítico. En esta\ncapa se aplican reglas de negocio validadas y se construyen entidades confiables.\n- Integrar datos de múltiples fuentes.\n- Aplicar reglas de negocio aprobadas.\n- Consolidar entidades maestras.\n- Preparar hechos y dimensiones.\n- Garantizar consistencia para modelos semánticos."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 7\ncur_ventas_consolidadas\ncur_clientes_unificados\ncur_productos_homologados\ncur_inventario_diario\ncur_facturacion_mensual\n3.6 Capa Semantic Layer\nLa Semantic Layer es la capa donde los datos se convierten en un modelo interpretable para negocio.\nEn DataBridge, esta capa normalmente se implementa mediante modelos semánticos de Power BI.\n- Definir relaciones.\n- Organizar tablas de hechos y dimensiones.\n- Crear medidas DAX.\n- Ocultar columnas técnicas.\n- Definir jerarquías.\n- Aplicar seguridad RLS.\n- Crear métricas reutilizables.\n3.7 Capa de Reportes y Dashboards\nLa capa de reportes representa la experiencia final del usuario. En esta capa se construyen\ndashboards, páginas analíticas, KPIs, visualizaciones, filtros y narrativas de negocio.\n- Los reportes no deben contener lógica de transformación pesada.\n- Las métricas críticas deben venir del modelo semántico.\n- Las visualizaciones deben usar medidas oficiales.\n- Los dashboards productivos deben tener responsable de mantenimiento.\nSECCIÓN 4 - FUENTES DE DATOS E INGESTA\n4.1 Registro de Fuentes\nToda fuente u"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "- Las visualizaciones deben usar medidas oficiales.\n- Los dashboards productivos deben tener responsable de mantenimiento.\nSECCIÓN 4 - FUENTES DE DATOS E INGESTA\n4.1 Registro de Fuentes\nToda fuente utilizada por DataBridge debe registrarse antes de ser incorporada a un pipeline\nproductivo. El registro debe incluir nombre de la fuente, tipo, sistema propietario, responsable\ntécnico, responsable de negocio, frecuencia de actualización, método de conexión, nivel de\nsensibilidad, campos principales, volumen aproximado, restricciones conocidas y SLA esperado de\ndisponibilidad.\nFuente: ERP Comercial\nTipo: Base de datos SQL Server\nResponsable Técnico: Equipo TI Cliente\nResponsable Negocio: Gerencia Comercial\nFrecuencia: Diaria\nMétodo de conexión: Gateway corporativo\nSensibilidad: Confidencial\nUso principal: Ventas, facturación, inventario"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 8\n4.2 Tipos de Ingesta\nTipo\nUso recomendado\nRiesgos o requisitos\nIngesta Full\nFuentes pequeñas, archivos de\nreferencia, catálogos de bajo volumen y\nprototipos.\nMayor tiempo de ejecución, mayor\nconsumo de recursos y posible\nreprocesamiento innecesario.\nIngesta Incremental\nTablas transaccionales grandes, ventas,\nfacturación, logs, inventario y eventos.\nRequiere campo de modificación,\nidentificador único y control de última\nextracción.\nIngesta por Snapshot\nInventario diario, cartera de clientes,\nsaldos financieros, headcount y backlog.\nTodo snapshot debe incluir una columna\nde fecha de corte.\nfecha_actualizacion\nupdated_at\nlast_modified_date\nfecha_snapshot\nfecha_corte\nperiodo_referencia\n4.3 Manejo de Cambios de Esquema\nUn cambio de esquema ocurre cuando una fuente agrega, elimina, renombra o modifica el tipo de\ndato de una columna.\n- Todo pipeline debe validar estructura esperada antes de procesar.\n- Los cambios de esquema deben registrarse como evento técnico.\n- Si el cambio afecta un dashboard productivo, debe evaluarse severidad.\n- Ningún cambio debe cor"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "estructura esperada antes de procesar.\n- Los cambios de esquema deben registrarse como evento técnico.\n- Si el cambio afecta un dashboard productivo, debe evaluarse severidad.\n- Ningún cambio debe corregirse manualmente sin dejar evidencia.\n- Si el cambio proviene del cliente, debe solicitarse confirmación formal.\n4.4 Archivos Manuales\nAunque DataBridge prioriza integraciones automatizadas, algunos clientes todavía operan con\narchivos manuales como Excel o CSV.\n- Deben tener plantilla oficial.\n- No deben cambiar nombres de columnas sin aviso.\n- Deben almacenarse en ubicación controlada.\n- Deben incluir fecha de corte.\n- Deben pasar validación automática.\n- No deben enviarse por canales no autorizados.\n- No deben contener contraseñas ni datos sensibles sin protección.\nventas_2026_07.csv\ninventario_snapshot_2026_07_20.xlsx\npresupuesto_financiero_2026_Q3.xlsx\nSECCIÓN 5 - TRANSFORMACIÓN Y PREPARACIÓN DE\nDATOS\n5.1 Principios de Transformación\nLas transformaciones de datos deben ser claras, auditables y mantenibles. Una transformación no\ndebe depender del conocimiento implícito de una persona.\n- Propósito definido."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 3,
+    "text": "auditables y mantenibles. Una transformación no\ndebe depender del conocimiento implícito de una persona.\n- Propósito definido."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 9\n- Regla documentada.\n- Entrada identificada.\n- Salida identificada.\n- Responsable técnico.\n- Validación funcional.\n- Evidencia de prueba.\n5.2 Separación de Responsabilidades\nNivel\nEjemplos\nUbicación recomendada\nLimpieza técnica\nConvertir fechas, eliminar espacios, normalizar\nmayúsculas, corregir tipos, renombrar columnas.\nStaging\nReglas de negocio\nCalcular venta neta, clasificar clientes,\nhomologar canales, definir estado de pedido.\nCurated\nMétricas analíticas\nVentas YTD, margen acumulado, ticket\npromedio, variación contra año anterior.\nSemantic Layer / Power BI\n5.3 Reglas para Power Query\n- Los pasos deben tener nombres comprensibles.\n- Las transformaciones innecesarias deben eliminarse.\n- No se deben combinar demasiadas responsabilidades en una sola consulta.\n- Las consultas auxiliares deben nombrarse claramente.\n- Las fuentes deben parametrizarse cuando aplique.\n- Los cambios manuales deben evitarse en procesos productivos.\n- Las consultas que cargan al modelo deben diferenciarse de las consultas intermedias.\nstg_ventas\nstg_clientes\ndim_producto\nfac"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "aplique.\n- Los cambios manuales deben evitarse en procesos productivos.\n- Las consultas que cargan al modelo deben diferenciarse de las consultas intermedias.\nstg_ventas\nstg_clientes\ndim_producto\nfact_ventas\nparam_ruta_archivos\nfn_limpiar_texto\n5.4 Reglas para SQL\n- Usar nombres explícitos para columnas.\n- Evitar SELECT * en procesos productivos.\n- Documentar joins complejos.\n- Evitar lógica duplicada entre vistas.\n- Separar vistas de staging y vistas analíticas.\n- Controlar filtros de fecha.\n- Validar duplicados antes de agregaciones.\n- Mantener scripts versionados.\n-- Ejemplo incorrecto\nSELECT *\nFROM ventas v\nJOIN clientes c ON v.id = c.id;\n-- Ejemplo correcto\nSELECT\n    v.venta_id,\n    v.fecha_venta,\n    v.cliente_id,"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 10\n    c.nombre_cliente,\n    v.monto_total,\n    v.cantidad\nFROM stg_ventas v\nLEFT JOIN stg_clientes c\n    ON v.cliente_id = c.cliente_id;\n5.5 Manejo de Fechas\n- Toda tabla transaccional debe tener una fecha de evento.\n- Los snapshots deben tener fecha de corte.\n- Las zonas horarias deben documentarse.\n- Las fechas futuras deben validarse.\n- Las fechas nulas deben clasificarse según regla de negocio.\n- Los modelos analíticos deben relacionarse con una tabla calendario oficial.\nfecha_venta\nfecha_factura\nfecha_pedido\nfecha_entrega\nfecha_actualizacion\nfecha_corte\nfecha_snapshot\nSECCIÓN 6 - CALIDAD DE DATOS\n6.1 Definición de Calidad de Datos\nLa calidad de datos es el grado en que los datos son adecuados para el uso esperado por negocio. En\nDataBridge, un dato de calidad no es simplemente un dato técnicamente válido. También debe ser\noportuno, consistente, comprensible y confiable para la toma de decisiones.\n6.2 Dimensiones de Calidad\nDimensión\nDescripción\nCompletitud\nLos campos requeridos tienen valores presentes.\nUnicidad\nNo existen duplicados no justificado"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "sible y confiable para la toma de decisiones.\n6.2 Dimensiones de Calidad\nDimensión\nDescripción\nCompletitud\nLos campos requeridos tienen valores presentes.\nUnicidad\nNo existen duplicados no justificados.\nValidez\nLos valores cumplen formato, tipo y dominio esperado.\nConsistencia\nLos datos no se contradicen entre sistemas o tablas.\nPrecisión\nLos valores representan correctamente la realidad del negocio.\nOportunidad\nLos datos están disponibles dentro del tiempo esperado.\nIntegridad\nLas relaciones entre tablas son válidas.\n6.3 Reglas Obligatorias de Calidad\n- Claves primarias sin valores nulos.\n- Claves primarias sin duplicados.\n- Fechas transaccionales no futuras.\n- Importes financieros válidos.\n- Cantidades numéricas no nulas cuando sean obligatorias.\n- Relaciones válidas entre hechos y dimensiones.\n- Volumen de registros dentro del rango esperado.\n- Fecha de actualización dentro del SLA definido."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 11\n6.4 Ejemplos de Validaciones\nValidación\nRegla\nAcción\nClaves nulas\ncliente_id no puede ser nulo en\nfact_ventas.\nEnviar registros a tabla de rechazos y\nnotificar al responsable.\nDuplicados\nventa_id debe ser único en fact_ventas.\nBloquear publicación del dataset hasta\nresolver duplicidad.\nFechas futuras\nfecha_venta no puede ser mayor a la\nfecha actual.\nClasificar registros como inválidos y\nsolicitar revisión a la fuente.\nImportes negativos\nmonto_total no puede ser negativo salvo\ndevolución o ajuste.\nValidar regla de negocio con Finanzas\no Comercial.\n6.5 Umbrales de Calidad\nCriticidad\nEjemplo\nAcción\nAlta\nDuplicados en ventas financieras\nBloquear publicación\nMedia\n2% de clientes sin teléfono\nPublicar con advertencia\nBaja\nTexto con espacios adicionales\nCorregir automáticamente\nSi una falla de calidad afecta un KPI ejecutivo, financiero o contractual, la publicación\ndebe bloquearse hasta recibir aprobación formal.\n6.6 Tabla de Registros Rechazados\nid_ejecucion\nnombre_pipeline\ntabla_origen\nregistro_id\ncampo_afectado\nvalor_recibido\nregla_incumplida\nfecha_detec"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 2,
+    "text": "ción\ndebe bloquearse hasta recibir aprobación formal.\n6.6 Tabla de Registros Rechazados\nid_ejecucion\nnombre_pipeline\ntabla_origen\nregistro_id\ncampo_afectado\nvalor_recibido\nregla_incumplida\nfecha_deteccion\nestado_revision\nSECCIÓN 7 - MODELADO ANALÍTICO PARA BI\n7.1 Propósito\nEl modelado analítico prepara los datos para su consumo eficiente en herramientas de BI. No debe\nconfundirse con el modelado operacional de los sistemas fuente. El objetivo es crear estructuras\nsimples, entendibles y optimizadas para análisis.\n7.2 Modelo Estrella\nDataBridge recomienda el modelo estrella como patrón principal para soluciones BI. Un modelo\nestrella se compone de tablas de hechos, dimensiones, relaciones simples, granularidad definida,\ncampos descriptivos en dimensiones y métricas agregables en hechos.\n                 dim_cliente\n                     |\ndim_producto - fact_ventas - dim_fecha\n                     |\n                dim_sucursal"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 12,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 12\n7.3 Tablas de Hechos\nLas tablas de hechos almacenan eventos medibles.\nfact_ventas\nfact_inventario\nfact_facturacion\nfact_pedidos\nfact_movimientos_stock\nfact_asistencia\nventa_id\ncliente_key\nproducto_key\nfecha_key\nsucursal_key\ncantidad_vendida\nmonto_bruto\nmonto_descuento\nmonto_neto\n7.4 Tablas de Dimensiones\nLas dimensiones describen el contexto de los hechos. Deben contener atributos descriptivos, permitir\nsegmentar métricas, tener claves únicas y ser comprensibles para negocio.\ndim_cliente\ndim_producto\ndim_fecha\ndim_sucursal\ndim_vendedor\ndim_canal\ncliente_key\ncliente_id_origen\nnombre_cliente\nsegmento_cliente\nciudad\nregion\nestado_cliente\n7.5 Granularidad\n- fact_ventas: una fila por línea de venta.\n- fact_inventario: una fila por producto, sucursal y fecha de corte.\n- fact_facturacion: una fila por factura emitida.\n- fact_asistencia: una fila por empleado y día.\nEstá prohibido construir tablas de hechos sin granularidad documentada.\n7.6 Claves Técnicas y Claves de Negocio\nDataBridge diferencia entre clave de negocio, que proviene del sistema fuente, y cla"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 12,
+    "chunk_id": 2,
+    "text": "ía.\nEstá prohibido construir tablas de hechos sin granularidad documentada.\n7.6 Claves Técnicas y Claves de Negocio\nDataBridge diferencia entre clave de negocio, que proviene del sistema fuente, y clave técnica o\nsustituta, que se crea para el modelo analítico.\ncliente_id_origen = CL-009812\ncliente_key = 102938\n- Las dimensiones deben tener clave única.\n- Las tablas de hechos deben relacionarse mediante claves consistentes.\n- Las claves de negocio deben conservarse para trazabilidad.\n- Las claves técnicas deben generarse de forma reproducible."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 13,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 13\nSECCIÓN 8 - ORQUESTACIÓN, ACTUALIZACIÓN Y\nMONITOREO\n8.1 Orquestación de Pipelines\nLos pipelines productivos deben ejecutarse en un orden controlado. La secuencia debe garantizar que\nlas dependencias estén disponibles antes de ejecutar procesos posteriores.\n1. Ingesta de fuentes\n2. Validación de estructura\n3. Carga Raw\n4. Transformación Staging\n5. Transformación Curated\n6. Validaciones de calidad\n7. Actualización del modelo semántico\n8. Actualización de reportes\n9. Notificación de estado\n8.2 Frecuencia de Actualización\nTipo de solución\nFrecuencia recomendada\nDashboard ejecutivo diario\n1 vez al día\nVentas operativas\nCada 1 a 3 horas\nInventario crítico\nCada 30 a 60 minutos\nReporte financiero mensual\nSegún cierre contable\nIndicadores históricos\nBajo demanda o diario\nNo se debe configurar refresh frecuente si el negocio no lo necesita.\n8.3 Reintentos\nLos pipelines deben tener política de reintentos controlada. El estándar base es un máximo de dos\nreintentos automáticos para fallas temporales.\nFallas temporales\nFallas que no deben reintentarse\nindefinidamen"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 13,
+    "chunk_id": 2,
+    "text": "ines deben tener política de reintentos controlada. El estándar base es un máximo de dos\nreintentos automáticos para fallas temporales.\nFallas temporales\nFallas que no deben reintentarse\nindefinidamente\nTimeout de conexión; API no disponible\nmomentáneamente; bloqueo temporal de archivo;\ngateway fuera de línea; saturación del origen.\nCambio de esquema; credenciales inválidas; archivo\ninexistente; error lógico en transformación; columna\nobligatoria eliminada.\n8.4 Logs de Ejecución\nid_ejecucion\nnombre_pipeline\nfecha_inicio\nfecha_fin\nduracion_segundos\nestado\nregistros_leidos\nregistros_procesados\nregistros_rechazados\nmensaje_error\nusuario_o_servicio\nambiente\nSUCCESS\nFAILED\nWARNING\nRUNNING\nCANCELLED"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 14,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 14\nPARTIAL_SUCCESS\n8.5 Alertas\n- Falla de ejecución.\n- Retraso superior al SLA.\n- Volumen anómalo.\n- Registros rechazados sobre umbral permitido.\n- Cambio de esquema.\n- Error de credenciales.\n- Fuente no disponible.\n- Modelo semántico no actualizado.\nCorreo corporativo\nMicrosoft Teams\nSlack\nSistema de tickets\nPanel de monitoreo\nSECCIÓN 9 - SEGURIDAD, PRIVACIDAD Y GOBIERNO DE\nDATOS\n9.1 Clasificación de Datos\nNivel\nDescripción\nEjemplos\nPúblico\nInformación que puede compartirse\nexternamente\nCatálogo público, datos agregados\nInterno\nInformación operativa no sensible\nLista de proyectos, documentación\nConfidencial\nInformación de negocio protegida\nVentas, márgenes, contratos\nSensible\nInformación personal, financiera o regulada\nDocumento de identidad, salario,\ndatos bancarios\n9.2 Información Personal y Sensible\n- No exponer datos sensibles si no son necesarios para el análisis.\n- Aplicar enmascaramiento cuando sea posible.\n- Restringir acceso por rol.\n- Documentar propósito de uso.\n- Evitar exportaciones no controladas.\n- No incluir datos sensibles en logs.\n9.3"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 14,
+    "chunk_id": 2,
+    "text": "el análisis.\n- Aplicar enmascaramiento cuando sea posible.\n- Restringir acceso por rol.\n- Documentar propósito de uso.\n- Evitar exportaciones no controladas.\n- No incluir datos sensibles en logs.\n9.3 Gestión de Credenciales\nEstá terminantemente prohibido incluir credenciales en scripts SQL, notebooks, archivos PBIX,\narchivos CSV, archivos XLSX, repositorios Git, comentarios de código, documentación pública o\ncapturas de pantalla.\n- Variables de entorno.\n- Key Vault.\n- Secret Manager.\n- Parámetros seguros.\n- Conexiones administradas."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 15,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 15\n- Gateways corporativos autorizados.\n9.4 Principio de Mínimo Privilegio\nCada usuario, servicio o pipeline debe tener únicamente los permisos necesarios para cumplir su\nfunción.\n9.5 Separación de Ambientes\n- No probar cambios directamente en producción.\n- No usar datos sensibles productivos en desarrollo sin autorización.\n- No mezclar credenciales entre ambientes.\n- Las conexiones productivas deben estar documentadas.\n- Los cambios críticos deben pasar revisión antes de publicarse.\nDesarrollo\nTesting\nProducción\nSECCIÓN 10 - CONVENCIONES DE NOMENCLATURA\n10.1 Principios Generales\n- Usar nombres claros y descriptivos.\n- Evitar abreviaturas innecesarias.\n- Usar minúsculas en objetos técnicos.\n- Usar snake_case para tablas y columnas técnicas.\n- Usar nombres amigables en español para campos visibles al usuario.\n- Evitar nombres genéricos como tabla1, consulta_final, nuevo o prueba.\n10.2 Prefijos de Tablas\nPrefijo\nUso\nraw_\nDatos crudos provenientes de la fuente\nstg_\nDatos preparados técnicamente\ncur_\nDatos curados con reglas de negocio\nfact_\nTablas de hechos"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 15,
+    "chunk_id": 2,
+    "text": "inal, nuevo o prueba.\n10.2 Prefijos de Tablas\nPrefijo\nUso\nraw_\nDatos crudos provenientes de la fuente\nstg_\nDatos preparados técnicamente\ncur_\nDatos curados con reglas de negocio\nfact_\nTablas de hechos\ndim_\nTablas de dimensiones\nbridge_\nTablas puente para relaciones muchos a muchos\ndq_\nTablas o procesos de calidad de datos\nlog_\nTablas de auditoría o ejecución\nref_\nTablas de referencia o catálogos\nraw_ventas_pos\nstg_ventas\ncur_ventas_consolidadas\nfact_ventas\ndim_cliente\nbridge_cliente_segmento\ndq_validacion_ventas\nlog_ejecucion_pipelines\nref_tipo_cambio"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 16,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 16\n10.3 Nomenclatura de Columnas\n- Usar snake_case.\n- Incluir sufijo _id para claves de negocio.\n- Incluir sufijo _key para claves técnicas.\n- Usar prefijo fecha_ para campos de fecha.\n- Usar prefijo monto_ para importes.\n- Usar prefijo cantidad_ para cantidades.\n- Usar es_ para campos booleanos.\ncliente_id\ncliente_key\nproducto_id\nproducto_key\nfecha_venta\nfecha_actualizacion\nmonto_bruto\nmonto_neto\ncantidad_vendida\nes_cliente_activo\n10.4 Nombres Prohibidos\ntabla_final\ntabla_nueva\nconsulta1\nconsulta2\ndatos_limpios_ok\nventas_bueno\nventas_final_final\nprueba\ntest\ncopia\nbackup_nuevo\nmedida_aux\nLa existencia de nombres temporales en producción se considera una falta de calidad técnica.\nSECCIÓN 11 - DOCUMENTACIÓN, LINAJE Y CATÁLOGO\nDE DATOS\n11.1 Documentación Mínima Obligatoria\n- Nombre del pipeline.\n- Propósito.\n- Fuente de datos.\n- Responsable técnico.\n- Responsable de negocio.\n- Frecuencia de actualización.\n- Dependencias.\n- Tablas generadas.\n- Reglas de transformación.\n- Reglas de calidad.\n- Reportes afectados.\n- Procedimiento de recuperación.\n- Limitaciones"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 16,
+    "chunk_id": 2,
+    "text": "le de negocio.\n- Frecuencia de actualización.\n- Dependencias.\n- Tablas generadas.\n- Reglas de transformación.\n- Reglas de calidad.\n- Reportes afectados.\n- Procedimiento de recuperación.\n- Limitaciones conocidas."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 17,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 17\n11.2 Diccionario de Datos\nnombre_tabla\nnombre_columna\ntipo_dato\ndescripcion\norigen\nregla_transformacion\npermite_nulos\nes_clave\nejemplo_valor\nresponsable\nColumna\nDescripción\nTipo\nRegla\ncliente_id\nIdentificador del cliente en CRM\nTexto\nObligatorio\nfecha_venta\nFecha de emisión de la venta\nFecha\nNo puede ser futura\nmonto_neto\nVenta después de descuentos\nDecimal\nDebe ser mayor o igual a\ncero salvo devolución\n11.3 Linaje de Datos\nERP.ventas.monto_total\n      ->\nraw_ventas_pos.monto_total\n      ->\nstg_ventas.monto_total\n      ->\ncur_ventas_consolidadas.monto_neto\n      ->\nfact_ventas.monto_neto\n      ->\nModelo Semántico Power BI\n      ->\nMedida [Total Ventas]\n      ->\nDashboard Ejecutivo Comercial\n11.4 Catálogo de Métricas\nnombre_metrica\ndescripcion_negocio\nformula_conceptual\nfuente_oficial\ntabla_base\nmedida_power_bi\nresponsable_negocio\nresponsable_tecnico\nfrecuencia_actualizacion\nfecha_validacion\nestado\nBorrador\nEn Validación\nAprobada\nObsoleta\nReemplazada\nSECCIÓN 12 - ESTÁNDARES DE ENTREGA DE PIPELINES\n12.1 Criterios de Entrega\n- Ejecuta correctamente.\n- Ti"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 17,
+    "chunk_id": 2,
+    "text": "encia_actualizacion\nfecha_validacion\nestado\nBorrador\nEn Validación\nAprobada\nObsoleta\nReemplazada\nSECCIÓN 12 - ESTÁNDARES DE ENTREGA DE PIPELINES\n12.1 Criterios de Entrega\n- Ejecuta correctamente.\n- Tiene logs de ejecución."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 18,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 18\n- Tiene controles de calidad.\n- Tiene documentación mínima.\n- Tiene responsables asignados.\n- Tiene validación funcional.\n- Tiene estrategia de recuperación.\n- Tiene frecuencia definida.\n- Tiene dependencias documentadas.\n- No contiene credenciales expuestas.\n12.2 Evidencia de Validación\n- Captura de ejecución exitosa.\n- Resultado de validaciones de calidad.\n- Comparación contra fuente.\n- Validación del responsable de negocio.\n- Registro de pruebas.\n- Link al reporte afectado.\n- Link al diccionario de datos.\n12.3 Criterios de Rechazo\n- No tiene documentación.\n- No tiene responsable.\n- Contiene credenciales expuestas.\n- Falla validaciones críticas.\n- No tiene control de duplicados.\n- No registra logs.\n- Depende de pasos manuales no documentados.\n- No tiene validación funcional.\n- Rompe un reporte productivo.\n- Genera métricas inconsistentes con el catálogo oficial.\nSECCIÓN 13 - CHECKLIST TÉCNICO ANTES DE PUBLICAR\nAntes de publicar un pipeline o dataset productivo, el responsable técnico debe completar el\nsiguiente checklist:\nCHECKLIST DE PUBLICACIÓN DE"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 18,
+    "chunk_id": 2,
+    "text": "oficial.\nSECCIÓN 13 - CHECKLIST TÉCNICO ANTES DE PUBLICAR\nAntes de publicar un pipeline o dataset productivo, el responsable técnico debe completar el\nsiguiente checklist:\nCHECKLIST DE PUBLICACIÓN DE PIPELINE\n[ ] La fuente de datos está registrada.\n[ ] El responsable técnico está definido.\n[ ] El responsable de negocio está definido.\n[ ] La frecuencia de actualización está documentada.\n[ ] La estrategia de ingesta está definida.\n[ ] Las credenciales están protegidas.\n[ ] No existen secretos en código o archivos.\n[ ] Los nombres de tablas cumplen la nomenclatura oficial.\n[ ] Los nombres de columnas cumplen la nomenclatura oficial.\n[ ] Los tipos de datos fueron validados.\n[ ] Las claves primarias fueron validadas.\n[ ] Los duplicados fueron controlados.\n[ ] Las fechas fueron validadas.\n[ ] Los importes fueron validados.\n[ ] Las reglas de calidad fueron ejecutadas."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 19,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 19\n[ ] Los registros rechazados fueron registrados.\n[ ] El pipeline genera logs de ejecución.\n[ ] La duración del pipeline está dentro del rango esperado.\n[ ] Las dependencias están documentadas.\n[ ] El linaje de datos está documentado.\n[ ] El diccionario de datos fue actualizado.\n[ ] El modelo semántico afectado fue identificado.\n[ ] Los reportes afectados fueron identificados.\n[ ] El responsable de negocio validó los resultados.\n[ ] Existe procedimiento de recuperación ante falla.\n[ ] La entrega fue registrada en el repositorio del proyecto.\nSECCIÓN 14 - RELACIÓN CON MODELOS SEMÁNTICOS Y\nPOWER BI\n14.1 Responsabilidad Compartida\nIngeniería de Datos\nModelado Semántico\nIntegrar fuentes, limpiar datos, aplicar reglas base,\ngarantizar calidad, documentar linaje y preparar\nhechos y dimensiones.\nDefinir relaciones, crear medidas DAX, organizar\ncampos, aplicar RLS, crear jerarquías, exponer\nmétricas y optimizar experiencia analítica.\n14.2 Reglas de Transición hacia Power BI\n- Las tablas de hechos tienen granularidad definida.\n- Las dimensiones tienen claves ún"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 19,
+    "chunk_id": 2,
+    "text": ", crear jerarquías, exponer\nmétricas y optimizar experiencia analítica.\n14.2 Reglas de Transición hacia Power BI\n- Las tablas de hechos tienen granularidad definida.\n- Las dimensiones tienen claves únicas.\n- Las relaciones esperadas fueron validadas.\n- Los campos técnicos innecesarios fueron identificados.\n- Las reglas de calidad fueron ejecutadas.\n- Las métricas base fueron validadas con negocio.\n- Las fechas están listas para relacionarse con calendario.\n- El diccionario de datos fue actualizado.\n14.3 Medidas DAX\nLas medidas DAX no se definen en detalle en este documento. Sin embargo, toda métrica crítica que\nllegue a Power BI debe cumplir las siguientes reglas:\n- Debe estar alineada con el catálogo de métricas.\n- Debe tener una definición funcional aprobada.\n- Debe usar datos provenientes de fuentes oficiales.\n- Debe ser validada contra resultados esperados.\n- Debe respetar la nomenclatura oficial definida en la Guía Oficial de Modelado Semántico y Power\nBI.\n- Debe documentarse si afecta decisiones ejecutivas, financieras o contractuales.\nMétrica: Total Ventas\nFuente oficial: fact_ventas.monto_neto\nMedida Power BI: [Total Ventas]\nResponsable negocio: Gerencia Comercial\nEstado: A"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 19,
+    "chunk_id": 3,
+    "text": "fecta decisiones ejecutivas, financieras o contractuales.\nMétrica: Total Ventas\nFuente oficial: fact_ventas.monto_neto\nMedida Power BI: [Total Ventas]\nResponsable negocio: Gerencia Comercial\nEstado: Aprobada\n14.4 Evitar Lógica Duplicada\nEstá prohibido duplicar reglas críticas entre SQL, Power Query y DAX sin justificación."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 20,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 20\nEjemplo incorrecto\nEjemplo correcto\nLa venta neta se calcula en SQL, luego se recalcula\ndiferente en Power Query y finalmente se vuelve a\ncalcular como medida DAX con otra lógica.\nLa regla base de venta neta se define en Curated, la\nmedida DAX consume el campo oficial y las\nvariaciones temporales se calculan en el modelo\nsemántico.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEsta guía entra en vigencia a partir de Julio de 2026 y aplica a todos los proyectos nuevos de\ningeniería de datos desarrollados por DataBridge BI Solutions.\nLos proyectos existentes deberán adoptar estas directrices de forma progresiva, priorizando pipelines\ncríticos, datasets ejecutivos, modelos semánticos compartidos, reportes financieros y soluciones con\nincidentes recurrentes de calidad.\n15.2 Responsabilidades\nRol\nResponsabilidad\nLead Data Engineer\nMantener y actualizar esta guía.\nData Engineer\nAplicar los estándares en pipelines y transformaciones.\nAnalytics Engineer\nGarantizar consistencia entre datos curados y modelos analíticos.\nBI Developer"
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 20,
+    "chunk_id": 2,
+    "text": "antener y actualizar esta guía.\nData Engineer\nAplicar los estándares en pipelines y transformaciones.\nAnalytics Engineer\nGarantizar consistencia entre datos curados y modelos analíticos.\nBI Developer\nConsumir datasets oficiales y reportar inconsistencias.\nBusiness Analyst\nValidar reglas de negocio y criterios de aceptación.\nData Owner\nAprobar definiciones funcionales de datos críticos.\nProject Lead\nGarantizar que la entrega cumpla los estándares definidos.\n15.3 Ciclo de Revisión\n- Cambio significativo en la arquitectura de datos.\n- Adopción de nuevas herramientas de BI o ingeniería de datos.\n- Incidente crítico relacionado con calidad de datos.\n- Incorporación de nuevas prácticas de gobierno de datos.\n- Recomendación formal del equipo de Data Engineering.\n- Solicitud de revisión por Dirección de Tecnología o Analytics.\n15.4 Cómo Proponer Cambios\n- Registrar la sugerencia en el backlog interno de documentación.\n- Indicar sección afectada.\n- Explicar el problema o mejora propuesta.\n- Adjuntar evidencia o caso real si aplica.\n- Solicitar revisión del Lead Data Engineer.\n- Aprobar cambios en el comité técnico de Analytics Engineering."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 20,
+    "chunk_id": 3,
+    "text": "untar evidencia o caso real si aplica.\n- Solicitar revisión del Lead Data Engineer.\n- Aprobar cambios en el comité técnico de Analytics Engineering."
+  },
+  {
+    "source": "03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf",
+    "page": 21,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Guía Oficial de Ingeniería de Datos\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 21\n15.5 Historial de Versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nLead Data Engineer\nVersión inicial de la Guía Oficial de\nIngeniería de Datos.\n15.6 Declaración Final\nLa ingeniería de datos es el fundamento sobre el cual DataBridge BI Solutions construye soluciones\nanalíticas confiables. Un reporte puede tener una visual atractiva, una interfaz intuitiva y métricas\naparentemente sofisticadas, pero si los datos no son trazables, consistentes y validados, la solución\nno cumple los estándares de la compañía.\nPor esta razón, cada pipeline, cada tabla, cada regla de transformación y cada dataset deben\ndiseñarse con responsabilidad técnica y sentido de negocio.\nEn DataBridge BI Solutions, no construimos únicamente reportes. Construimos confianza\nen los datos."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Arquitectura de Soluciones BI y\n Mapa de Dominios Analíticos\nDocumento oficial de arquitectura para soluciones analíticas, dominios de\n negocio, capas de datos, ownership y operación BI.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nBI Architecture & Data Platform\nClasificación\nInterno - Uso Técnico Restringido\nPropietario del Documento\nBI Architecture Lead\nPróxima Revisión\nEnero de 2027\nEste documento define la arquitectura canónica para diseñar, operar y gobernar\nsoluciones BI de DataBridge BI Solutions."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Introducción y visión general de la arquitectura\n2. Principios arquitectónicos\n3. Diagrama textual de arquitectura BI\n4. Capas de la solución analítica\n5. Mapa de dominios analíticos\n6. Catálogo de componentes BI\n7. Dependencias entre datasets y modelos\n8. Herramientas y tecnologías homologadas\n9. Estrategia de workspaces y ambientes\n10. Seguridad y gobierno de acceso\n11. Observabilidad, monitoreo y refresh\n12. Ownership por equipo y matriz RACI\n13. Roadmap técnico de arquitectura BI\n14. Architecture Decision Records\n15. Disposiciones finales y revisión del documento"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - INTRODUCCIÓN Y VISIÓN GENERAL DE LA\nARQUITECTURA\n1.1 Propósito del documento\nEste documento constituye el mapa arquitectónico oficial de DataBridge BI Solutions para soluciones\nde Business Intelligence, analítica empresarial y modelos semánticos corporativos. Su propósito es\nservir como referencia canónica para consultores BI, Data Engineers, Analytics Engineers, Project\nLeads, arquitectos de datos y stakeholders técnicos que necesiten comprender cómo se diseñan,\nintegran, publican y mantienen las soluciones analíticas de la compañía.\nEl documento debe leerse en conjunto con la Guía Oficial de Ingeniería de Datos, la Guía Oficial de\nModelado Semántico y Power BI y el Protocolo de Incidentes de Datos y Reportes BI.\n1.2 Contexto empresarial\nDataBridge BI Solutions es una consultora especializada en transformar datos operativos en activos\nanalíticos confiables. La empresa implementa soluciones de Power BI, modelos semánticos\ncompartidos, pipelines de datos, gobierno de métricas, automatización de reportes y arquitecturas\nmodernas de datos para clien"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "fiables. La empresa implementa soluciones de Power BI, modelos semánticos\ncompartidos, pipelines de datos, gobierno de métricas, automatización de reportes y arquitecturas\nmodernas de datos para clientes de retail, finanzas, logística, salud, educación y manufactura.\nLa arquitectura analítica debe permitir que los clientes tomen decisiones con información consistente,\nsegura, trazable y oportuna. Por ello, DataBridge evita soluciones aisladas, archivos manuales sin\ncontrol y reportes desconectados que duplican lógica de negocio.\n1.3 Objetivo arquitectónico\nEl objetivo de la arquitectura BI de DataBridge es establecer un flujo confiable desde las fuentes de\ndatos hasta los dashboards, garantizando separación de responsabilidades, reutilización de modelos,\ncalidad de datos, gobierno de acceso y facilidad de mantenimiento.\nSECCIÓN 2 - PRINCIPIOS ARQUITECTÓNICOS\nPrincipio\nDescripción\nP-01 Capas bien definidas\nCada etapa de la solución tiene una responsabilidad clara: ingesta,\npreparación, curado, modelo semántico y reporte.\nP-02 Modelo semántico\nreutilizable\nLas métricas oficiales deben residir en modelos semánticos compartidos\ncuando exista potencial de reutilización.\nP-03 Gobierno de"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "curado, modelo semántico y reporte.\nP-02 Modelo semántico\nreutilizable\nLas métricas oficiales deben residir en modelos semánticos compartidos\ncuando exista potencial de reutilización.\nP-03 Gobierno desde el\ndiseño\nSeguridad, ownership, linaje y clasificación de datos se definen antes de\nproducción.\nP-04 Calidad antes que\nestética\nUn dashboard visualmente atractivo no compensa datos incorrectos o no\nauditables.\nP-05 Automatización\noperativa\nRefresh, alertas, validaciones y despliegues deben automatizarse siempre que\nsea viable.\nP-06 Arquitectura evolutiva\nLa solución debe permitir crecimiento progresivo sin reescrituras innecesarias.\nP-07 Métrica única\nCada KPI crítico debe tener definición oficial, fuente y responsable.\nP-08 Observabilidad analítica\nToda solución crítica debe monitorear refresh, errores, duración, uso y calidad."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 4\nSECCIÓN 3 - DIAGRAMA TEXTUAL DE ARQUITECTURA BI\n3.1 Vista de alto nivel\nUSUARIOS DE NEGOCIO\n  [Dirección] [Finanzas] [Comercial] [Operaciones] [RRHH]\n                       ^\n                       | Consumo seguro\n                Power BI Service\n        [Apps] [Reports] [Dashboards] [Scorecards]\n                       ^\n                       | Thin reports\n           Modelos Semánticos Certificados\n     [Ventas] [Finanzas] [Inventario] [Clientes] [Operaciones]\n                       ^\n                       | Tablas fact_ y dim_\n              Capa Curated / Data Warehouse\n                       ^\n                       | Transformación y calidad\n                  Staging / Dataflows\n                       ^\n                       | Ingesta batch o incremental\n        Fuentes: ERP, CRM, POS, Excel, APIs, SharePoint, SQL\n3.2 Flujo de una solicitud analítica típica\n1. Negocio solicita un KPI o análisis.\n2. Business Analyst documenta definición funcional.\n3. Data Engineer identifica fuentes y reglas de integración.\n4. Analytics Engineer prepara tablas fact_ y"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "ica\n1. Negocio solicita un KPI o análisis.\n2. Business Analyst documenta definición funcional.\n3. Data Engineer identifica fuentes y reglas de integración.\n4. Analytics Engineer prepara tablas fact_ y dim_.\n5. BI Developer crea o extiende el modelo semántico.\n6. Data Owner valida resultados.\n7. Reporte thin consume medidas oficiales.\n8. Solución se publica en workspace productivo.\n9. Refresh y uso quedan monitoreados.\nSECCIÓN 4 - CAPAS DE LA SOLUCIÓN ANALÍTICA\nCapa\nResponsabilidad\nEjemplos\nFuentes\nSistemas o archivos donde nacen los datos.\nERP, CRM, POS, Excel, APIs, SQL\nServer\nLanding / Raw\nConserva datos cercanos al origen para\nauditoría.\nraw_ventas_pos, raw_clientes_crm\nStaging\nEstandariza tipos, nombres y estructuras.\nstg_ventas, stg_clientes\nCurated\nAplica reglas de negocio y consolida entidades.\ncur_ventas_consolidadas\nData Warehouse\nAnalítico\nOrganiza hechos y dimensiones para consumo\nBI.\nfact_ventas, dim_cliente\nModelo Semántico\nDefine relaciones, medidas DAX, jerarquías y\nRLS.\nModelo Ventas Corporativo\nReporte\nPresenta visualizaciones y navegación para\nusuarios.\nDashboard Ejecutivo Comercial\n4.1 Reglas por capa\n- Raw no debe contener lógica de negocio compleja.\n- Staging d"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "Modelo Ventas Corporativo\nReporte\nPresenta visualizaciones y navegación para\nusuarios.\nDashboard Ejecutivo Comercial\n4.1 Reglas por capa\n- Raw no debe contener lógica de negocio compleja.\n- Staging debe resolver limpieza técnica y normalización.\n- Curated debe contener reglas aprobadas por negocio.\n- El modelo semántico debe concentrar medidas DAX y lógica analítica dinámica.\n- El reporte no debe duplicar reglas críticas ni crear métricas aisladas."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 5\nSECCIÓN 5 - MAPA DE DOMINIOS ANALÍTICOS\n5.1 Dominios estándar\nDominio\nPropósito\nKPIs típicos\nOwner funcional\nVentas\nSeguimiento de ingresos,\nvolumen, canales y\ncumplimiento comercial.\nTotal Ventas, Ticket Promedio,\n% Margen, Ventas YTD\nGerencia Comercial\nFinanzas\nControl de ingresos, gastos,\npresupuesto, margen y\nrentabilidad.\nEBITDA, OPEX, Presupuesto vs\nReal, Margen Neto\nGerencia Financiera\nInventario\nMonitoreo de stock, rotación,\nquiebres y valorización.\nStock Disponible, Rotación,\nDías de Inventario\nOperaciones\nClientes\nAnálisis de comportamiento,\nsegmentación y retención.\nClientes Activos, Churn,\nFrecuencia de Compra\nCustomer Experience\nOperaciones\nProductividad, cumplimiento,\ntiempos y eficiencia.\nSLA, Tiempo de Ciclo,\nProductividad\nGerencia Operativa\nRecursos\nHumanos\nDotación, rotación,\nausentismo y desempeño.\nHeadcount, Rotación,\nAusentismo\nRRHH\n5.2 Reglas de dominio\n- Cada dominio debe tener responsable funcional y responsable técnico.\n- Los KPIs críticos del dominio deben estar en el catálogo de métricas.\n- Los modelos semánticos compartidos deben"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "as de dominio\n- Cada dominio debe tener responsable funcional y responsable técnico.\n- Los KPIs críticos del dominio deben estar en el catálogo de métricas.\n- Los modelos semánticos compartidos deben mapear claramente a uno o más dominios.\n- Los cambios de definición deben aprobarse con Data Owner.\nSECCIÓN 6 - CATÁLOGO DE COMPONENTES BI\nComponente\nDescripción\nResponsable típico\nPipeline de ingesta\nExtrae datos desde fuentes internas o externas.\nData Engineer\nDataflow / Transformación\nPrepara datos para consumo analítico.\nAnalytics Engineer\nTabla fact_\nRepresenta eventos medibles.\nAnalytics Engineer\nTabla dim_\nRepresenta contexto para segmentación.\nAnalytics Engineer\nModelo semántico\nContiene relaciones, medidas, RLS y jerarquías.\nBI Developer / BI Architect\nReporte thin\nVisualiza información usando modelo publicado.\nBI Developer\nApp Power BI\nEmpaqueta reportes para audiencias finales.\nBI Admin\nDashboard ejecutivo\nSuperficie de consumo para dirección.\nBI Developer / Business\nAnalyst\nSECCIÓN 7 - DEPENDENCIAS ENTRE DATASETS Y\nMODELOS\n7.1 Política de dependencias\nLas dependencias entre datasets, dataflows, modelos semánticos y reportes deben documentarse\npara evitar fallas en cascada,"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 3,
+    "text": "CIÓN 7 - DEPENDENCIAS ENTRE DATASETS Y\nMODELOS\n7.1 Política de dependencias\nLas dependencias entre datasets, dataflows, modelos semánticos y reportes deben documentarse\npara evitar fallas en cascada, reprocesamientos innecesarios o interrupciones no previstas."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 6\nFuente ERP Ventas\n   -> stg_ventas\n   -> fact_ventas\n   -> Modelo Semántico Ventas\n   -> Dashboard Ejecutivo Comercial\n   -> App Comercial Dirección\n7.2 Matriz de dependencias\nConsumidor\nProveedor\nTipo\nCriticidad\nModelo Ventas\nfact_ventas\nDatos curados\nAlta\nModelo Finanzas\nfact_presupuesto\nDatos curados\nAlta\nDashboard Ejecutivo\nModelo Ventas\nModelo semántico\nAlta\nReporte Operativo Stock\nModelo Inventario\nModelo semántico\nMedia\nScorecard Comercial\nMedidas certificadas\nMétricas\nAlta\n7.3 Reglas\n- Un reporte productivo no debe depender de archivos personales.\n- Las dependencias críticas deben tener owner asignado.\n- Los cambios en un modelo compartido deben evaluar impacto en reportes consumidores.\n- Los datasets obsoletos deben retirarse con plan de comunicación.\nSECCIÓN 8 - HERRAMIENTAS Y TECNOLOGÍAS\nHOMOLOGADAS\nCategoría\nHerramientas aprobadas\nUso\nBI y visualización\nPower BI Desktop, Power BI Service\nModelos, reportes, apps y consumo\nanalítico\nModelado avanzado\nTabular Editor, DAX Studio\nOptimización, revisión DAX y metadata\nTransformación\nPower Query, Datafl"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "ión\nPower BI Desktop, Power BI Service\nModelos, reportes, apps y consumo\nanalítico\nModelado avanzado\nTabular Editor, DAX Studio\nOptimización, revisión DAX y metadata\nTransformación\nPower Query, Dataflows, SQL, Microsoft\nFabric Pipelines\nPreparación y transformación\nAlmacenamiento\nSQL Server, Lakehouse, Warehouse,\nSharePoint controlado\nPersistencia analítica\nControl de versiones\nGitHub o repositorio aprobado\nVersionado de documentación, scripts y\nartefactos\nDocumentación\nConfluence, SharePoint, Markdown\nGlosario, decisiones y diccionarios\nMonitoreo\nPower BI Service, logs de refresh,\nalertas, panel operativo\nSeguimiento de operación\n8.1 Herramientas no recomendadas para producción\n- Archivos Excel personales como fuente crítica sin control.\n- PBIX con credenciales personales no administradas.\n- Modelos duplicados sin gobierno.\n- Consultas manuales ejecutadas fuera del pipeline.\n- Carpetas locales como repositorio productivo."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 7\nSECCIÓN 9 - ESTRATEGIA DE WORKSPACES Y\nAMBIENTES\n9.1 Ambientes\nDesarrollo -> Testing / UAT -> Producción\n9.2 Workspaces recomendados\nWorkspace\nPropósito\nAudiencia\nDBS - Dev - Dominio\nConstrucción y pruebas técnicas.\nEquipo de proyecto\nDBS - UAT - Dominio\nValidación funcional con negocio.\nUsuarios clave y equipo BI\nDBS - Prod - Dominio\nConsumo final controlado.\nUsuarios finales\nDBS - Certified Models\nModelos semánticos certificados.\nBI corporativo y usuarios\nautorizados\n9.3 Reglas de publicación\n- No publicar directamente desde desarrollo hacia producción sin validación.\n- Los modelos certificados deben residir en workspaces controlados.\n- Los reportes thin deben conectarse a modelos publicados en producción.\n- Los accesos deben gestionarse por grupos, no por usuarios individuales cuando sea posible.\nSECCIÓN 10 - SEGURIDAD Y GOBIERNO DE ACCESO\n10.1 Principios\n- Aplicar mínimo privilegio.\n- Separar roles de desarrollo, validación y consumo.\n- Priorizar grupos de seguridad sobre permisos individuales.\n- Aplicar RLS cuando usuarios compartan modelo pero no alcan"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "plicar mínimo privilegio.\n- Separar roles de desarrollo, validación y consumo.\n- Priorizar grupos de seguridad sobre permisos individuales.\n- Aplicar RLS cuando usuarios compartan modelo pero no alcance de datos.\n- No exponer datos sensibles si no son necesarios para decisión.\n10.2 Matriz de roles\nRol\nPermisos típicos\nBI Admin\nAdministración de workspaces, gateways y configuración.\nBI Developer\nCrear y publicar modelos y reportes en ambientes autorizados.\nBusiness Analyst\nValidar métricas, requerimientos y criterios funcionales.\nData Owner\nAprobar definiciones, accesos y métricas críticas.\nViewer\nConsumir reportes y apps autorizadas.\nExternal Viewer\nConsumir reportes específicos con acceso restringido."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 8\nSECCIÓN 11 - OBSERVABILIDAD, MONITOREO Y\nREFRESH\n11.1 Métricas operativas\nMétrica\nDescripción\nAlerta sugerida\nRefresh status\nEstado de actualización del dataset.\nFalla en dataset crítico\nRefresh duration\nDuración de actualización.\nDuración > 150% del promedio\nData latency\nRetraso entre fuente y reporte.\nIncumplimiento de SLA\nUsage\nCantidad de usuarios y vistas.\nCaída anómala o uso no\nesperado\nError rate\nErrores de refresh o conexión.\nDos fallas consecutivas\nRLS validation\nResultado de pruebas de seguridad.\nRol sin filtro o acceso excesivo\n11.2 Reglas de monitoreo\n- Todo modelo crítico debe tener responsable de monitoreo.\n- Las fallas de refresh deben generar notificación automática.\n- Los errores recurrentes deben registrarse como deuda técnica o incidente.\n- Los modelos sin uso deben revisarse trimestralmente.\n- La duración del refresh debe analizarse antes de configurar frecuencias agresivas.\nSECCIÓN 12 - OWNERSHIP POR EQUIPO Y MATRIZ RACI\n12.1 Roles de ownership\nRol\nResponsabilidad\nData Owner\nResponsable funcional de definición, acceso y calidad percibida"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "configurar frecuencias agresivas.\nSECCIÓN 12 - OWNERSHIP POR EQUIPO Y MATRIZ RACI\n12.1 Roles de ownership\nRol\nResponsabilidad\nData Owner\nResponsable funcional de definición, acceso y calidad percibida.\nTechnical Owner\nResponsable técnico de pipelines, modelo y continuidad operativa.\nBI Architect\nDefine estándares de arquitectura y revisa soluciones críticas.\nBusiness Analyst\nDocumenta requerimientos, reglas de negocio y validación.\nBI Developer\nConstruye modelo, medidas y reportes.\nData Engineer\nDiseña ingesta, transformación y calidad de datos.\n12.2 Matriz RACI resumida\nActividad\nData Owner\nBI Architect\nBI Dev\nData Eng\nBA\nDefinir KPI\nA\nC\nC\nI\nR\nDiseñar arquitectura\nC\nA/R\nC\nR\nI\nConstruir pipeline\nI\nC\nI\nA/R\nI\nConstruir modelo\nC\nA\nR\nC\nI\nValidar resultados\nA\nC\nC\nC\nR\nPublicar producción\nI\nA\nR\nC\nI"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 9\nSECCIÓN 13 - ROADMAP TÉCNICO DE ARQUITECTURA BI\nHorizonte\nIniciativa\nResultado esperado\n0-3 meses\nEstandarizar plantillas de modelos\nsemánticos.\nMenor variabilidad entre proyectos.\n0-3 meses\nCrear catálogo de métricas reutilizable.\nKPIs oficiales y trazables.\n3-6 meses\nAutomatizar checklist de calidad y refresh.\nMejor detección temprana de fallas.\n3-6 meses\nDefinir repositorio de ADRs analíticos.\nDecisiones técnicas trazables.\n6-12 meses\nConsolidar modelos certificados por dominio.\nMayor reutilización y gobierno.\n6-12 meses\nAdoptar prácticas avanzadas de CI/CD BI.\nDespliegues más seguros y auditables.\nSECCIÓN 14 - ARCHITECTURE DECISION RECORDS\n14.1 Definición\nUn ADR es un registro breve que documenta una decisión arquitectónica relevante, su contexto,\nalternativas consideradas, decisión adoptada y consecuencias. DataBridge utiliza ADRs para evitar que\ndecisiones importantes dependan de memoria oral o conversaciones aisladas.\n14.2 Cuándo crear un ADR\n- Cambio de arquitectura de refresh.\n- Adopción de nuevo modelo semántico compartido.\n- Uso de relación muchos"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "importantes dependan de memoria oral o conversaciones aisladas.\n14.2 Cuándo crear un ADR\n- Cambio de arquitectura de refresh.\n- Adopción de nuevo modelo semántico compartido.\n- Uso de relación muchos a muchos en modelo crítico.\n- Decisión de implementar RLS complejo.\n- Uso de una fuente no estándar.\n- Cambio de estrategia de workspaces o deployment.\n14.3 Plantilla mínima\nADR-{número}: {Título}\nFecha: {AAAA-MM-DD}\nEstado: Propuesto / Aprobado / Reemplazado\nContexto: {problema o necesidad}\nOpciones consideradas: {alternativas}\nDecisión: {decisión tomada}\nConsecuencias: {impactos positivos y negativos}\nResponsables: {nombres o roles}\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEste documento entra en vigencia a partir de Julio de 2026 y aplica a todas las soluciones BI nuevas\ndiseñadas por DataBridge BI Solutions. Las soluciones existentes deberán adoptar estos principios de\nforma progresiva, priorizando modelos compartidos, soluciones ejecutivas, reportes financieros y\ndominios con alta reutilización."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 3,
+    "text": "inancieros y\ndominios con alta reutilización."
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Arquitectura de Soluciones BI\nInterno - Uso Técnico Restringido\nVersión 1.0.0 | Julio 2026\nPágina 10\n15.2 Responsabilidades\nRol\nResponsabilidad\nBI Architecture Lead\nMantener este documento y aprobar cambios arquitectónicos relevantes.\nBI Architect\nAplicar estándares y revisar diseños críticos.\nProject Lead\nGarantizar que la solución siga el mapa arquitectónico acordado.\nBI Developer\nImplementar modelos y reportes conforme a los estándares.\nData Engineer\nConstruir pipelines alineados a la arquitectura de capas.\nData Owner\nValidar dominios, métricas y accesos funcionales.\n15.3 Ciclo de revisión\n- Revisión formal cada seis meses.\n- Revisión extraordinaria ante adopción de nuevas herramientas o plataformas.\n- Actualización posterior a incidentes críticos relacionados con arquitectura BI.\n- Propuestas mediante backlog interno de arquitectura y documentación.\n15.4 Historial de versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nBI Architecture Lead\nVersión inicial del documento de\narquitectura BI y mapa de dominios\nanalíticos.\n15.5 Declaración final\nLa arquitectura BI de DataBridge no busca crear complejidad innecesaria. Su propósito es ordenar el\ncamino"
+  },
+  {
+    "source": "04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "icial del documento de\narquitectura BI y mapa de dominios\nanalíticos.\n15.5 Declaración final\nLa arquitectura BI de DataBridge no busca crear complejidad innecesaria. Su propósito es ordenar el\ncamino que recorren los datos desde su origen hasta la decisión de negocio. Cuando las capas,\ndominios, responsabilidades y métricas están bien definidos, la organización gana confianza, velocidad\ny capacidad de escalar su cultura analítica.\nEn DataBridge BI Solutions, una arquitectura analítica bien diseñada es el puente entre\ndatos confiables y decisiones correctas."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Protocolo de Incidentes de Datos\n y Reportes BI\n Procedimiento oficial para detectar, clasificar, responder, comunicar y\n documentar incidentes analíticos.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nBI Operations & Data Reliability\nClasificación\nInterno - Uso Restringido\nPropietario del Documento\nData Reliability Lead\nPróxima Revisión\nEnero de 2027\nLa confiabilidad analítica no es opcional: si un dato guía una decisión, su disponibilidad,\nexactitud y trazabilidad deben protegerse."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Introducción y filosofía de confiabilidad analítica\n2. Definiciones fundamentales\n3. Clasificación de severidad\n4. Roles y responsabilidades\n5. Detección y alertas\n6. Proceso paso a paso de respuesta\n7. Diagnóstico de incidentes de datos\n8. Mitigación, rollback y comunicación\n9. Criterios de resolución y cierre\n10. Plantilla oficial de post-mortem BI\n11. Revisión, archivo y seguimiento\n12. Métricas de confiabilidad analítica\n13. Error budget analítico\n14. Simulacros y pruebas de continuidad\n15. Disposiciones finales y revisión del protocolo"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - INTRODUCCIÓN Y FILOSOFÍA DE\nCONFIABILIDAD ANALÍTICA\n1.1 Propósito del documento\nEste documento establece el protocolo oficial de DataBridge BI Solutions para responder a incidentes\nrelacionados con datos, pipelines, modelos semánticos, actualizaciones de Power BI, dashboards,\npermisos, KPIs y disponibilidad de reportes.\nSu objetivo es garantizar que cualquier degradación, interrupción o inconsistencia que afecte la\nconfianza en la información sea detectada, clasificada, mitigada, comunicada y documentada de forma\nestructurada, profesional y reproducible.\n1.2 Filosofía\nEn DataBridge, un incidente analítico no se limita a un sistema caído. También puede ser un KPI\nincorrecto, un refresh fallido, una tabla con duplicados, un reporte con datos desactualizados, una regla\nDAX modificada sin validación o una exposición incorrecta de información sensible.\nLa filosofía del protocolo se basa en cuatro principios:\n- Primero estabilizar, después analizar causa raíz.\n- La comunicación clara reduce impacto y ansiedad del cliente.\n- El análisis debe ser blameless: el foco"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "del protocolo se basa en cuatro principios:\n- Primero estabilizar, después analizar causa raíz.\n- La comunicación clara reduce impacto y ansiedad del cliente.\n- El análisis debe ser blameless: el foco está en el sistema, no en culpar personas.\n- Todo incidente relevante debe dejar aprendizaje documentado y acciones correctivas.\nSECCIÓN 2 - DEFINICIONES FUNDAMENTALES\nConcepto\nDefinición\nEjemplo\nIncidente de datos\nEvento no planificado que afecta exactitud,\ndisponibilidad, oportunidad, seguridad o\nconfianza en datos.\nVentas muestran monto duplicado\nen dashboard ejecutivo.\nIncidente de reporte\nEvento que afecta acceso, visualización, refresh o\nfuncionamiento de reportes BI.\nPower BI App no carga para usuarios\nde dirección.\nProblema\nCausa raíz sistémica detrás de uno o más\nincidentes.\nPipeline no valida cambios de\nesquema.\nCambio planificado\nAlteración coordinada y comunicada\npreviamente.\nMigración de modelo semántico a\nworkspace certificado.\nWorkaround\nAlternativa temporal para reducir impacto.\nEnviar extracto validado mientras se\nrestaura dashboard."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "pacto.\nEnviar extracto validado mientras se\nrestaura dashboard."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 4\nSECCIÓN 3 - CLASIFICACIÓN DE SEVERIDAD\n3.1 Tabla de severidades\nNivel\nNombre\nImpacto\nEjemplos\nRespuesta\nSEV-1\nCrítico\nImpacto ejecutivo,\nfinanciero, contractual o\nexposición sensible.\nDashboard C-Level caído; KPI\nfinanciero incorrecto; RLS expone\ndatos sensibles.\n15 min\nSEV-2\nAlto\nFuncionalidad crítica\ndegradada o datos\nrelevantes incorrectos para\nun área.\nRefresh de ventas falla; inventario\ncrítico desactualizado; medidas\nDAX rotas.\n30 min\nSEV-3\nMedio\nDegradación parcial con\nworkaround disponible.\nReporte operativo lento; datos de\nuna región atrasados; visual no\ncrítico falla.\n4 h\nSEV-4\nBajo\nAnomalía preventiva sin\nimpacto visible inmediato.\nAumento de duración de refresh;\nadvertencias de gateway; baja\nadopción inesperada.\nPróximo día\nhábil\n3.2 Criterios de escalamiento\n- El incidente afecta a dirección, finanzas, clientes externos o cierre contable.\n- Se confirma impacto sobre KPIs oficiales.\n- No existe workaround confiable.\n- Aparece riesgo de exposición de datos sensibles.\n- El tiempo de resolución excede el doble del SLA previsto.\n3.3 Criterios de desescalamiento"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "sobre KPIs oficiales.\n- No existe workaround confiable.\n- Aparece riesgo de exposición de datos sensibles.\n- El tiempo de resolución excede el doble del SLA previsto.\n3.3 Criterios de desescalamiento\n- El impacto queda contenido a usuarios o reportes específicos.\n- Existe workaround validado por negocio.\n- Las métricas críticas vuelven a rangos normales.\n- Se confirma que los datos históricos no fueron alterados.\nSECCIÓN 4 - ROLES Y RESPONSABILIDADES\nRol\nResponsabilidad principal\nIncident Lead BI\nCoordina el incidente, define severidad, asigna roles y declara cierre.\nTechnical Lead\nLidera diagnóstico técnico de pipelines, modelos, DAX, refresh o permisos.\nData Owner\nValida impacto funcional, aprueba correcciones de métricas y confirma aceptación.\nCommunications Lead\nComunica estado a cliente, usuarios y stakeholders internos.\nBI Developer\nCorrige reportes, modelos, medidas, RLS o configuración de Power BI.\nData Engineer\nCorrige fuentes, pipelines, calidad, transformaciones o disponibilidad de datos.\nBusiness Analyst\nDocumenta impacto de negocio y valida escenarios de prueba."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "lidad de datos.\nBusiness Analyst\nDocumenta impacto de negocio y valida escenarios de prueba."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 5\n4.1 Matriz RACI resumida\nActividad\nIncident\nLead\nTechnical\nLead\nData Owner\nComms\nBA\nDeclarar incidente\nA/R\nC\nI\nI\nI\nDiagnóstico técnico\nI\nA/R\nC\nI\nC\nComunicación cliente\nA\nC\nC\nR\nI\nValidar datos corregidos\nI\nC\nA\nI\nR\nDeclarar resolución\nA/R\nC\nC\nI\nI\nPost-mortem\nA\nR\nC\nI\nC\nSECCIÓN 5 - DETECCIÓN Y ALERTAS\n5.1 Fuentes de detección\n- Alertas automáticas de refresh fallido en Power BI Service.\n- Logs de pipelines, dataflows o procesos ETL.\n- Validaciones de calidad de datos.\n- Reporte manual de usuarios o clientes.\n- Monitoreo de uso, latencia o disponibilidad.\n- Comparaciones automáticas contra fuentes oficiales.\n- Revisión de Workspaces, Gateway o credenciales.\n5.2 Canales\nCanal\nUso\n#bi-incidents\nDeclaración y seguimiento general de incidentes.\n#sev1-war-room-bi\nCoordinación de incidentes críticos.\nTeams del proyecto\nComunicación con cliente y usuarios clave.\nJira / Azure DevOps\nRegistro formal de incidentes y acciones correctivas.\nCorreo ejecutivo\nComunicación formal a dirección o cliente externo.\n5.3 Alertas mínimas\n- Refresh fallido en dataset crítico.\n- Dos fallas consecuti"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "gistro formal de incidentes y acciones correctivas.\nCorreo ejecutivo\nComunicación formal a dirección o cliente externo.\n5.3 Alertas mínimas\n- Refresh fallido en dataset crítico.\n- Dos fallas consecutivas en pipeline productivo.\n- Duración de refresh mayor al 150% del promedio.\n- Registros rechazados por encima del umbral permitido.\n- Cambio de esquema detectado en fuente productiva.\n- Modelo semántico certificado no actualizado dentro del SLA.\nSECCIÓN 6 - PROCESO PASO A PASO DE RESPUESTA\n6.1 Flujo general\n[DETECCIÓN] -> [DECLARACIÓN] -> [WAR ROOM] -> [DIAGNÓSTICO]\n      -> [MITIGACIÓN] -> [VALIDACIÓN] -> [COMUNICACIÓN]\n      -> [CIERRE] -> [POST-MORTEM]"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 6\n6.2 Fase 1 - Detección\n- Reconocer alerta o reporte manual.\n- Confirmar si el evento es real o falso positivo.\n- Identificar reporte, dataset, modelo, pipeline o fuente afectada.\n- Recolectar evidencia inicial: hora, usuario, captura, error, refresh ID.\n6.3 Fase 2 - Declaración\n- Incident Lead define severidad inicial.\n- Se abre canal de coordinación si aplica.\n- Se asigna Technical Lead, Communications Lead y responsables de área.\n- Se registra incidente en sistema de tracking.\n6.4 Fase 3 - Diagnóstico\n- Revisar últimos cambios en pipeline, modelo, DAX, permisos o fuente.\n- Validar estado de refresh y logs.\n- Comparar datos afectados contra fuente oficial.\n- Revisar dependencias aguas arriba y aguas abajo.\n- Documentar hipótesis confirmadas y descartadas.\n6.5 Fase 4 - Mitigación\n- Aplicar workaround validado si reduce impacto.\n- Revertir cambio reciente si fue causa probable.\n- Reprocesar datos si la fuente ya está estable.\n- Ocultar reporte o métrica si existe riesgo de decisión incorrecta.\n- Comunicar estado y próxima actualización.\nSECCIÓN 7 - DIAGNÓSTICO DE INCIDE"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "ble.\n- Reprocesar datos si la fuente ya está estable.\n- Ocultar reporte o métrica si existe riesgo de decisión incorrecta.\n- Comunicar estado y próxima actualización.\nSECCIÓN 7 - DIAGNÓSTICO DE INCIDENTES DE DATOS\n7.1 Checklist técnico\n[ ] ¿Falló la fuente de datos?\n[ ] ¿Cambió el esquema de origen?\n[ ] ¿Falló el gateway o credencial?\n[ ] ¿Falló el pipeline o dataflow?\n[ ] ¿Hubo cambio reciente en Power Query, SQL o DAX?\n[ ] ¿Hay duplicados, nulos o diferencias de volumen?\n[ ] ¿El modelo semántico actualizó correctamente?\n[ ] ¿La seguridad RLS está filtrando como se espera?\n[ ] ¿El problema afecta uno o varios reportes?\n[ ] ¿El problema afecta métricas certificadas?"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 7\n7.2 Causas frecuentes\nCausa\nSíntoma\nAcción inicial\nCambio de esquema\nColumna no encontrada o tipo\nincompatible.\nBloquear publicación y contactar owner\nde fuente.\nCredencial expirada\nRefresh falla por autenticación.\nActualizar credencial administrada.\nDato duplicado\nKPI inflado o diferencias contra fuente.\nEjecutar validación de unicidad.\nCambio DAX\nMétrica devuelve valores inesperados.\nRevertir versión o comparar fórmula\nanterior.\nRLS mal configurado\nUsuario ve datos incorrectos o no ve\ndatos.\nProbar roles y matriz de acceso.\nGateway caído\nDatasets locales no actualizan.\nEscalar a administrador de gateway.\nSECCIÓN 8 - MITIGACIÓN, ROLLBACK Y COMUNICACIÓN\n8.1 Regla de oro\nPrimero estabilizar el consumo analítico y evitar decisiones equivocadas; después realizar\nanálisis profundo de causa raíz.\n8.2 Acciones de mitigación\nEscenario\nMitigación recomendada\nDashboard crítico caído\nPublicar página temporal o reporte alternativo validado.\nKPI incorrecto\nOcultar visual, deshabilitar app o agregar aviso hasta corregir.\nRefresh fallido\nReintentar refresh, reactivar gateway o repro"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "o\nPublicar página temporal o reporte alternativo validado.\nKPI incorrecto\nOcultar visual, deshabilitar app o agregar aviso hasta corregir.\nRefresh fallido\nReintentar refresh, reactivar gateway o reprocesar pipeline.\nRLS expone información\nRetirar acceso inmediatamente y bloquear modelo si es necesario.\nFuente inconsistente\nCongelar publicación y usar último snapshot confiable.\n8.3 Rollback\n- Restaurar PBIX o modelo desde versión anterior si existe control de versiones.\n- Revertir medida DAX a fórmula validada.\n- Restaurar configuración RLS anterior.\n- Reprocesar desde último snapshot confiable.\n- Retirar temporalmente la app de Power BI si existe riesgo de decisión incorrecta.\n8.4 Template de actualización\n[ACTUALIZACIÓN INCIDENTE BI] INC-{AAAA}-{N}\nSeveridad: SEV-{1/2/3/4}\nEstado: Investigando / Mitigando / Validando / Resuelto\nImpacto: {usuarios, reportes o métricas afectadas}\nAcción tomada: {resumen}\nPróxima actualización: {hora}\nSECCIÓN 9 - CRITERIOS DE RESOLUCIÓN Y CIERRE\n9.1 Criterios técnicos\n- El refresh o pipeline crítico ejecuta correctamente."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 3,
+    "text": "erios técnicos\n- El refresh o pipeline crítico ejecuta correctamente."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 8\n- Las métricas afectadas coinciden con fuente o validación funcional.\n- Los reportes afectados cargan correctamente.\n- La seguridad RLS fue probada si estuvo involucrada.\n- No quedan alertas críticas activas.\n- Data Owner o usuario clave confirma aceptación cuando aplica.\n9.2 Cierre formal\n- Incident Lead declara resolución en canal oficial.\n- Communications Lead envía comunicado final.\n- Se registra duración, impacto, causa probable y acciones tomadas.\n- Se define si corresponde post-mortem obligatorio.\n- Se crean tickets de acciones correctivas.\nSECCIÓN 10 - PLANTILLA OFICIAL DE POST-MORTEM BI\nEl post-mortem es obligatorio para SEV-1 y SEV-2, y recomendado para SEV-3 recurrentes.\nPOST-MORTEM OFICIAL - DATABRIDGE BI SOLUTIONS\nID del incidente: INC-{AAAA}-{N}\nSeveridad: SEV-{nivel}\nFecha del incidente: {DD/MM/AAAA}\nAutor: {nombre}\nEstado: Borrador / En revisión / Aprobado\n1. Resumen ejecutivo\nDescripción breve del incidente, duración, impacto y acción de resolución.\n2. Timeline\nHH:MM - Alerta detectada\nHH:MM - Incidente declarado\nHH:MM - War Room abierta\nHH:MM - Causa"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "1. Resumen ejecutivo\nDescripción breve del incidente, duración, impacto y acción de resolución.\n2. Timeline\nHH:MM - Alerta detectada\nHH:MM - Incidente declarado\nHH:MM - War Room abierta\nHH:MM - Causa probable identificada\nHH:MM - Mitigación aplicada\nHH:MM - Datos validados\nHH:MM - Incidente resuelto\n3. Impacto\nUsuarios afectados, reportes, modelos, KPIs y dominios impactados.\n4. Análisis de causa raíz - 5 Whys\n¿Por qué 1?\n¿Por qué 2?\n¿Por qué 3?\n¿Por qué 4?\n¿Por qué 5?\n5. Qué funcionó bien\n6. Qué puede mejorar\n7. Acciones correctivas\n8. Evidencias y referencias\nSECCIÓN 11 - REVISIÓN, ARCHIVO Y SEGUIMIENTO\nSeveridad\nBorrador\nRevisión\nAprobación final\nSEV-1\n48 horas\n72 horas\n5 días hábiles\nSEV-2\n72 horas\n5 días hábiles\n7 días hábiles\nSEV-3\n5 días hábiles\n7 días hábiles\n10 días hábiles\nSEV-4\nOpcional\nOpcional\nOpcional"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 9\n11.1 Seguimiento\n- Toda acción correctiva debe convertirse en ticket.\n- Las acciones de SEV-1 tienen prioridad alta y no deben postergarse sin aprobación.\n- Los post-mortems deben archivarse en el repositorio oficial de confiabilidad analítica.\n- Mensualmente se revisan tendencias de incidentes recurrentes.\nSECCIÓN 12 - MÉTRICAS DE CONFIABILIDAD ANALÍTICA\nMétrica\nDescripción\nObjetivo\nDisponibilidad de reportes\ncríticos\nPorcentaje de tiempo en que reportes clave están\ndisponibles.\n>= 99.5% mensual\nPuntualidad de refresh\nPorcentaje de actualizaciones completadas dentro\ndel SLA.\n>= 98% mensual\nExactitud de KPIs críticos\nPorcentaje de KPIs validados sin diferencias\nmateriales.\n>= 99%\nTiempo medio de resolución\nTiempo promedio para cerrar incidentes BI.\nReducción trimestral\nIncidentes recurrentes\nCantidad de incidentes por misma causa raíz.\n0 para causas ya\ncorregidas\nErrores de RLS\nFallos de seguridad detectados.\n0 tolerancia\nSECCIÓN 13 - ERROR BUDGET ANALÍTICO\n13.1 Definición\nEl error budget analítico representa el margen de fallas tolerado para una solución BI antes de\nr"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "e RLS\nFallos de seguridad detectados.\n0 tolerancia\nSECCIÓN 13 - ERROR BUDGET ANALÍTICO\n13.1 Definición\nEl error budget analítico representa el margen de fallas tolerado para una solución BI antes de\nrestringir cambios y priorizar estabilidad. Permite equilibrar velocidad de entrega con confiabilidad de\nla información.\n13.2 Política\nConsumo del budget\nEstado\nAcción\n0%-50%\nSaludable\nOperación normal y releases permitidos.\n51%-75%\nAlerta\nRevisión de estabilidad antes de cambios de alto riesgo.\n76%-99%\nCrítico\nAprobación explícita para nuevos deploys.\n100%\nAgotado\nFreeze de nuevas features y foco en confiabilidad.\n13.3 Ejemplo\nSi un dashboard ejecutivo tiene SLO de puntualidad de refresh de 99%,\nel error budget mensual es 1% de ejecuciones permitidas fuera de SLA.\nSi el dashboard se actualiza 60 veces al mes, solo 0.6 ejecuciones\npodrían fallar sin violar el objetivo. En la práctica, una sola falla\ncrítica puede consumir el budget operativo del mes."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 10\nSECCIÓN 14 - SIMULACROS Y PRUEBAS DE\nCONTINUIDAD\n14.1 GameDay analítico\nDataBridge ejecuta simulacros controlados para validar su capacidad de respuesta ante incidentes BI.\nEstos ejercicios permiten entrenar roles, probar runbooks y descubrir brechas antes de incidentes\nreales.\nEscenario\nObjetivo\nRefresh de modelo ejecutivo falla antes de reunión\nC-Level\nValidar alertas, workaround y comunicación.\nCambio de esquema elimina columna crítica\nValidar detección de estructura y bloqueo de publicación.\nMedida DAX financiera cambia resultado\nValidar control de versiones y aceptación funcional.\nRLS expone región incorrecta\nValidar pruebas de seguridad y respuesta inmediata.\nGateway queda fuera de línea\nValidar escalamiento y continuidad.\n14.2 Frecuencia\n- Simulacro trimestral para soluciones críticas.\n- Revisión semestral de runbooks.\n- Prueba obligatoria antes de grandes migraciones o cambios de arquitectura.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nPROTOCOLO\n15.1 Vigencia\nEste protocolo entra en vigencia a partir de Julio de 2026 y aplica a todas las soluciones BI p"
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "nes o cambios de arquitectura.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nPROTOCOLO\n15.1 Vigencia\nEste protocolo entra en vigencia a partir de Julio de 2026 y aplica a todas las soluciones BI productivas\noperadas, mantenidas o entregadas por DataBridge BI Solutions.\n15.2 Responsabilidades\nRol\nResponsabilidad\nData Reliability Lead\nMantener este protocolo y revisar incidentes críticos.\nBI Operations Lead\nAsegurar monitoreo y continuidad de reportes.\nProject Lead\nGarantizar que el cliente conozca canales y SLAs.\nBI Developer\nCorregir modelos, medidas, reportes y RLS.\nData Engineer\nCorregir fuentes, pipelines y calidad de datos.\nData Owner\nValidar impacto funcional y aceptación final.\n15.3 Historial de versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nData Reliability Lead\nVersión inicial del Protocolo de\nIncidentes de Datos y Reportes BI."
+  },
+  {
+    "source": "05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Protocolo de Incidentes BI\nInterno - Uso Restringido\nVersión 1.0.0 | Julio 2026\nPágina 11\n15.4 Declaración final\nUn incidente de datos no solo interrumpe un reporte: puede interrumpir la confianza de una\norganización en sus decisiones. Por eso, DataBridge responde a incidentes analíticos con disciplina,\ntransparencia y aprendizaje continuo.\nEn DataBridge BI Solutions, proteger la confiabilidad de los datos es proteger la calidad de\nlas decisiones."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 1,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 1\n DataBridge BI Solutions\n Catálogo de Servicios y Acuerdos\n de Nivel de Servicio BI\n Documento comercial-operativo para definir servicios, entregables,\n planes, responsabilidades y SLAs de Business Intelligence.\nCampo\nDetalle\nVersión del Documento\n1.0.0\nFecha de Emisión\nJulio de 2026\nDepartamento Responsable\nCommercial Analytics & BI Delivery\nClasificación\nInterno - Uso Comercial y Operativo\nPropietario del Documento\nHead of BI Services\nPróxima Revisión\nEnero de 2027\nEste catálogo define qué ofrece DataBridge, cómo se entrega, qué incluye cada servicio y\nqué compromisos operativos se asumen con los clientes."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 2,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 2\nTabla de Contenidos\n1. Introducción y alcance del catálogo\n2. Principios de prestación de servicios BI\n3. Catálogo general de servicios\n4. Servicios de diagnóstico y consultoría\n5. Servicios de implementación BI\n6. Servicios de ingeniería de datos\n7. Servicios de modelado semántico y Power BI\n8. Servicios de gobierno, calidad y documentación\n9. Servicios de soporte y mantenimiento\n10. Planes comerciales de servicio\n11. Acuerdos de nivel de servicio - SLAs\n12. Entregables, criterios de aceptación y exclusiones\n13. Matriz de responsabilidades cliente-DataBridge\n14. Preguntas frecuentes comerciales y operativas\n15. Disposiciones finales y revisión del documento"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 3\nSECCIÓN 1 - INTRODUCCIÓN Y ALCANCE DEL CATÁLOGO\n1.1 Propósito del documento\nEste documento presenta el catálogo oficial de servicios de DataBridge BI Solutions. Su propósito es\ndefinir de manera clara qué servicios ofrece la compañía, qué entregables se incluyen, qué\nresponsabilidades asume cada parte, qué niveles de servicio aplican y cuáles son los criterios mínimos\npara considerar una entrega como aceptada.\nEl catálogo está diseñado para ser usado por equipos comerciales, Project Leads, consultores BI,\nclientes, stakeholders de negocio y áreas técnicas que necesiten entender el alcance de una solución\nde Business Intelligence.\n1.2 Alcance\nEl catálogo cubre servicios de diagnóstico, implementación, ingeniería de datos, modelado semántico,\nPower BI, gobierno de datos, soporte, capacitación y mantenimiento. No reemplaza contratos\nespecíficos, órdenes de servicio ni anexos comerciales firmados con un cliente. Cuando exista\ndiferencia entre este catálogo y un contrato formal, prevalece el contrato.\n1.3 Objetivo comercial y operativo\nDataBridge busca que ca"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 2,
+    "text": "icio ni anexos comerciales firmados con un cliente. Cuando exista\ndiferencia entre este catálogo y un contrato formal, prevalece el contrato.\n1.3 Objetivo comercial y operativo\nDataBridge busca que cada servicio sea comprensible, medible y entregable. Un servicio BI no se\nconsidera completo únicamente porque exista un reporte; debe existir claridad sobre el problema que\nresuelve, las fuentes utilizadas, las métricas entregadas, la validación funcional y el modelo de soporte\nposterior.\nSECCIÓN 2 - PRINCIPIOS DE PRESTACIÓN DE SERVICIOS\nBI\nPrincipio\nDescripción\nValor de negocio primero\nTodo servicio debe responder a una necesidad de decisión o eficiencia del\ncliente.\nTransparencia de alcance\nLos entregables, exclusiones y supuestos deben estar claros antes de iniciar.\nCalidad y trazabilidad\nLas métricas incluidas en entregables deben poder validarse y documentarse.\nSeguridad por defecto\nLos accesos, datos sensibles y credenciales se gestionan con controles mínimos.\nTransferencia de\nconocimiento\nCada entrega debe dejar al cliente con capacidad de uso y entendimiento.\nMejora continua\nLos servicios recurrentes deben usar métricas de operación y retroalimentación."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 3,
+    "chunk_id": 3,
+    "text": "miento\nCada entrega debe dejar al cliente con capacidad de uso y entendimiento.\nMejora continua\nLos servicios recurrentes deben usar métricas de operación y retroalimentación."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 4\nSECCIÓN 3 - CATÁLOGO GENERAL DE SERVICIOS\nServicio\nDescripción\nResultado esperado\nDiagnóstico BI\nEvaluación de madurez, herramientas, reportes,\nfuentes y procesos analíticos.\nMapa de estado actual y\nrecomendaciones.\nImplementación de\ndashboards\nDiseño y construcción de reportes ejecutivos u\noperativos.\nDashboard publicado y\nvalidado.\nModelado semántico\nConstrucción de modelos Power BI reutilizables y\ngobernados.\nModelo con medidas oficiales y\ndocumentación.\nIngeniería de datos\nIngesta, transformación, automatización y calidad\nde datos.\nPipelines y datasets confiables.\nMigración desde Excel\nReemplazo de reportes manuales por soluciones\nautomatizadas.\nProceso BI controlado y\nmantenible.\nGobierno de datos\nDefinición de métricas, owners, linaje y reglas de\ncalidad.\nCatálogo de datos y métricas.\nSoporte BI\nAtención de incidentes, cambios menores y\nmonitoreo.\nContinuidad operativa.\nCapacitación\nFormación en Power BI, DAX, modelado y consumo\nde datos.\nUsuarios habilitados y material\nde apoyo.\nSECCIÓN 4 - SERVICIOS DE DIAGNÓSTICO Y\nCONSULTORÍA\n4.1 Diagnóstico de"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 2,
+    "text": "inuidad operativa.\nCapacitación\nFormación en Power BI, DAX, modelado y consumo\nde datos.\nUsuarios habilitados y material\nde apoyo.\nSECCIÓN 4 - SERVICIOS DE DIAGNÓSTICO Y\nCONSULTORÍA\n4.1 Diagnóstico de madurez analítica\nServicio orientado a evaluar el estado actual de las capacidades analíticas de un cliente. Incluye\nentrevistas, revisión de reportes existentes, identificación de fuentes, análisis de procesos manuales y\nrecomendaciones priorizadas.\nIncluye\nNo incluye\nEntrevistas con stakeholders, revisión de reportes,\ninventario de fuentes, matriz de riesgos, roadmap\nrecomendado.\nConstrucción de dashboards productivos, integración\nde fuentes o soporte recurrente.\n4.2 Auditoría de Power BI\nEvalúa modelos, DAX, performance, organización de workspaces, permisos, refresh, duplicidad de\nreportes y gobierno de datasets.\n- Revisión de modelos semánticos.\n- Análisis de medidas DAX críticas.\n- Identificación de modelos duplicados.\n- Revisión de permisos y RLS.\n- Recomendaciones de optimización.\n4.3 Roadmap BI\nDefine una hoja de ruta técnica y funcional para evolucionar la plataforma BI del cliente. Puede incluir\nfases, dependencias, quick wins, riesgos, plan de adopción y estimación de esfue"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 4,
+    "chunk_id": 3,
+    "text": "4.3 Roadmap BI\nDefine una hoja de ruta técnica y funcional para evolucionar la plataforma BI del cliente. Puede incluir\nfases, dependencias, quick wins, riesgos, plan de adopción y estimación de esfuerzo."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 5\nSECCIÓN 5 - SERVICIOS DE IMPLEMENTACIÓN BI\n5.1 Dashboard ejecutivo\nConstrucción de tableros para dirección o gerencia, enfocados en KPIs estratégicos, indicadores de\ndesempeño, comparativos temporales y alertas de negocio.\nEntregables\nCriterios de aceptación\nReporte Power BI, modelo o conexión a modelo\nexistente, documentación de KPIs, sesión de validación\ny publicación en workspace acordado.\nKPIs validados por negocio, visualizaciones aprobadas,\nfiltros funcionales, seguridad aplicada y documentación\nentregada.\n5.2 Dashboard operativo\nTablero orientado a seguimiento diario o semanal de operaciones, procesos, inventario, ventas,\natención, cumplimiento o productividad.\n5.3 Scorecards y seguimiento de objetivos\nServicio para construir tableros de objetivos, metas, semáforos, cumplimiento mensual y seguimiento\nejecutivo de iniciativas.\n5.4 Migración de reportes manuales\nReemplaza reportes Excel o procesos manuales por una solución automatizada y gobernada. Incluye\ndocumentación de reglas actuales, identificación de fuentes y construcción de solución BI.\nSEC"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 2,
+    "text": "manuales\nReemplaza reportes Excel o procesos manuales por una solución automatizada y gobernada. Incluye\ndocumentación de reglas actuales, identificación de fuentes y construcción de solución BI.\nSECCIÓN 6 - SERVICIOS DE INGENIERÍA DE DATOS\n6.1 Ingesta e integración\n- Conexión a bases de datos, archivos, APIs o carpetas controladas.\n- Diseño de estrategia full, incremental o snapshot.\n- Automatización de cargas recurrentes.\n- Registro de logs de ejecución.\n- Manejo de errores y registros rechazados.\n6.2 Transformación y calidad\nServicio para preparar datos confiables mediante limpieza, homologación, reglas de negocio,\nvalidaciones y estructuras analíticas listas para modelos BI.\nTipo de control\nEjemplo\nCompletitud\nCampos obligatorios no nulos.\nUnicidad\nClaves sin duplicados no justificados.\nValidez\nFechas, importes y dominios en formato correcto.\nIntegridad\nRelaciones válidas entre hechos y dimensiones.\nOportunidad\nDatos actualizados dentro del SLA definido.\n6.3 Data mart analítico\nDiseño e implementación de tablas fact_ y dim_ para dominios específicos como ventas, finanzas,\ninventario, clientes, operaciones o RRHH."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 5,
+    "chunk_id": 3,
+    "text": "seño e implementación de tablas fact_ y dim_ para dominios específicos como ventas, finanzas,\ninventario, clientes, operaciones o RRHH."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 6\nSECCIÓN 7 - SERVICIOS DE MODELADO SEMÁNTICO Y\nPOWER BI\n7.1 Modelo semántico corporativo\nConstrucción de modelos Power BI reutilizables, con relaciones, medidas DAX, jerarquías, formatos,\ncarpetas de visualización, RLS y documentación mínima.\n7.2 Refactorización de modelos existentes\n- Limpieza de tablas y columnas no usadas.\n- Reorganización de medidas.\n- Optimización de relaciones.\n- Reescritura de medidas DAX ineficientes.\n- Aplicación de nomenclatura oficial.\n- Separación entre modelo y reporte thin.\n7.3 Estándares DAX\nLas medidas entregadas deben seguir la Guía Oficial de Modelado Semántico y Power BI. Las medidas\ncríticas se documentan y validan funcionalmente.\nEjemplo de medidas esperadas:\n[Total Ventas]\n[% Margen Bruto]\n[Ventas YTD]\n[% Var Ventas vs LY]\n[Ticket Promedio]\n7.4 Seguridad RLS\nImplementación de seguridad a nivel de fila según región, usuario, unidad de negocio, sucursal, equipo\ncomercial u otra regla aprobada.\nSECCIÓN 8 - SERVICIOS DE GOBIERNO, CALIDAD Y\nDOCUMENTACIÓN\n8.1 Catálogo de métricas\nServicio para formalizar KPIs críticos, def"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 6,
+    "chunk_id": 2,
+    "text": "io, unidad de negocio, sucursal, equipo\ncomercial u otra regla aprobada.\nSECCIÓN 8 - SERVICIOS DE GOBIERNO, CALIDAD Y\nDOCUMENTACIÓN\n8.1 Catálogo de métricas\nServicio para formalizar KPIs críticos, definiciones, fórmulas conceptuales, fuentes oficiales, owners y\nestado de validación.\nnombre_metrica\ndescripcion_negocio\nformula_conceptual\nfuente_oficial\nmedida_power_bi\nresponsable_negocio\nresponsable_tecnico\nestado\n8.2 Diccionario de datos\nDocumentación de tablas, columnas, tipos de datos, descripciones, origen, reglas de transformación y\nejemplos.\n8.3 Linaje de datos\nMapeo de la ruta del dato desde fuente hasta dashboard, incluyendo transformaciones, tablas curadas,\nmodelo semántico y medida final."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 7\n8.4 Gobierno de workspaces\n- Definición de ambientes Dev, UAT y Prod.\n- Estrategia de permisos por grupos.\n- Separación de modelos certificados y reportes thin.\n- Proceso de retiro de datasets obsoletos.\n- Inventario de reportes y responsables.\nSECCIÓN 9 - SERVICIOS DE SOPORTE Y MANTENIMIENTO\n9.1 Soporte correctivo\nAtención de incidentes relacionados con refresh, acceso, errores de visualización, datos inconsistentes,\nmedidas rotas o permisos incorrectos.\n9.2 Soporte evolutivo\nCambios menores o medianos sobre soluciones existentes, como nuevas medidas, ajustes visuales,\nfiltros, páginas adicionales o incorporación de campos ya disponibles.\n9.3 Monitoreo operativo\n- Seguimiento de refresh de datasets críticos.\n- Revisión de errores recurrentes.\n- Alertas de caída o retraso.\n- Control de uso y adopción.\n- Revisión de workspaces y artefactos obsoletos.\n9.4 Mesa de ayuda BI\nCanal formal para solicitudes, errores, dudas de uso y requerimientos de baja complejidad. Todas las\nsolicitudes deben registrarse con prioridad, descripción, evidencia y usuario solicita"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 2,
+    "text": "de ayuda BI\nCanal formal para solicitudes, errores, dudas de uso y requerimientos de baja complejidad. Todas las\nsolicitudes deben registrarse con prioridad, descripción, evidencia y usuario solicitante.\nSECCIÓN 10 - PLANES COMERCIALES DE SERVICIO\nPlan\nOrientado a\nIncluye\nStarter BI\nEquipos pequeños o primera solución\nBI.\n1 dashboard, modelo básico, documentación\nmínima, capacitación corta.\nProfessional BI\nÁreas con necesidad de automatización\ny gobierno inicial.\nHasta 3 dashboards, modelo semántico,\ncatálogo de métricas, soporte inicial.\nEnterprise BI\nOrganizaciones con múltiples dominios\ny reporting crítico.\nArquitectura BI, modelos compartidos,\ngobierno, soporte, SLAs y capacitación.\nManaged BI\nClientes con operación recurrente.\nSoporte mensual, monitoreo, incidentes,\ncambios menores y revisión de adopción.\n10.1 Add-ons\n- Capacitación avanzada DAX.\n- Auditoría de performance Power BI.\n- Implementación de RLS avanzado.\n- Automatización de pipelines adicionales.\n- Documentación extendida de linaje.\n- Migración de workspaces y gobierno Power BI."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 7,
+    "chunk_id": 3,
+    "text": "dida de linaje.\n- Migración de workspaces y gobierno Power BI."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 8\nSECCIÓN 11 - ACUERDOS DE NIVEL DE SERVICIO - SLAS\n11.1 Clasificación de prioridades\nPrioridad\nDescripción\nEjemplo\nTiempo de\nrespuesta\nP1 Crítica\nImpacto ejecutivo, financiero o\nexposición de datos.\nDashboard C-Level caído o RLS\nincorrecto.\n15 min\nP2 Alta\nReporte o refresh crítico\nafectado para un área\ncompleta.\nVentas no actualiza antes de reunión\ndiaria.\n30 min\nP3 Media\nProblema parcial con\nworkaround.\nVisual no crítico falla o lentitud\nmoderada.\n4 h\nP4 Baja\nConsulta, mejora menor o\nsolicitud preventiva.\nCambio de color, etiqueta o nueva\nvista menor.\n1 día hábil\n11.2 Tiempos objetivo de resolución\nPrioridad\nResolución objetivo\nObservación\nP1\n4 a 8 horas hábiles\nPuede requerir workaround inmediato y\npost-mortem.\nP2\n1 a 2 días hábiles\nDepende de fuente, gateway o aprobación funcional.\nP3\n3 a 5 días hábiles\nPuede agruparse en sprint de soporte.\nP4\n5 a 10 días hábiles\nSujeto a backlog y alcance contratado.\n11.3 Condiciones para aplicar SLA\n- El cliente debe reportar el incidente por canal acordado.\n- Debe incluir evidencia mínima: reporte, usuario, hora, ca"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 8,
+    "chunk_id": 2,
+    "text": "hábiles\nSujeto a backlog y alcance contratado.\n11.3 Condiciones para aplicar SLA\n- El cliente debe reportar el incidente por canal acordado.\n- Debe incluir evidencia mínima: reporte, usuario, hora, captura o error.\n- El acceso a fuentes o ambientes debe estar disponible.\n- Solicitudes fuera de alcance contractual se cotizan o priorizan separadamente.\n- Los tiempos pueden pausarse si se requiere información o aprobación del cliente.\nSECCIÓN 12 - ENTREGABLES, CRITERIOS DE\nACEPTACIÓN Y EXCLUSIONES\n12.1 Entregables comunes\n- Archivo PBIX o reporte publicado, según acuerdo.\n- Modelo semántico o dataset publicado.\n- Diccionario de datos o documentación mínima.\n- Catálogo de métricas para KPIs críticos.\n- Manual de usuario o guía rápida.\n- Evidencia de validación funcional.\n- Checklist de publicación completado."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 9\n12.2 Criterios de aceptación\nCriterio\nCondición\nFuncional\nEl reporte responde las preguntas priorizadas del negocio.\nDatos\nLos KPIs críticos coinciden con validación acordada.\nSeguridad\nAccesos y RLS funcionan según matriz aprobada.\nPerformance\nLa experiencia de uso es aceptable para usuarios objetivo.\nDocumentación\nEl cliente recibe material suficiente para usar y mantener la solución.\nPublicación\nLa solución queda en el workspace, app o canal acordado.\n12.3 Exclusiones generales\n- Corrección de errores en sistemas fuente del cliente.\n- Licencias Power BI, Microsoft Fabric u otras herramientas, salvo contrato explícito.\n- Administración permanente de infraestructura no incluida en el plan.\n- Carga manual recurrente de archivos no contemplada.\n- Soporte fuera de horario sin acuerdo específico.\n- Cambios de alcance no aprobados formalmente.\nSECCIÓN 13 - MATRIZ DE RESPONSABILIDADES\nCLIENTE-DATABRIDGE\nActividad\nDataBridge\nCliente\nDefinir objetivos de negocio\nFacilita y documenta\nAprueba y prioriza\nAcceso a fuentes\nSolicita y orienta requisitos\nProvee acceso"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 2,
+    "text": "Z DE RESPONSABILIDADES\nCLIENTE-DATABRIDGE\nActividad\nDataBridge\nCliente\nDefinir objetivos de negocio\nFacilita y documenta\nAprueba y prioriza\nAcceso a fuentes\nSolicita y orienta requisitos\nProvee accesos y permisos\nReglas de negocio\nDocumenta y traduce a modelo\nDefine y valida\nConstrucción técnica\nDiseña e implementa\nRevisa avances\nValidación de KPIs\nPrepara evidencia\nAprueba resultados\nPublicación\nConfigura solución BI\nAutoriza audiencia\nSoporte\nAtiende según SLA\nReporta con evidencia\n13.1 Responsabilidad compartida\nEl éxito de una solución BI depende de una colaboración activa. DataBridge puede construir,\nautomatizar y documentar, pero el cliente debe validar reglas de negocio, proporcionar accesos\noportunos y designar responsables funcionales.\nSECCIÓN 14 - PREGUNTAS FRECUENTES COMERCIALES Y\nOPERATIVAS\nP: ¿Qué servicio sirve para reemplazar reportes manuales en Excel?\nEl servicio recomendado es Migración de reportes manuales, usualmente combinado con ingeniería de\ndatos, modelado semántico y dashboard operativo o ejecutivo."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 9,
+    "chunk_id": 3,
+    "text": "tico y dashboard operativo o ejecutivo."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 10\nP: ¿Qué incluye un dashboard ejecutivo?\nIncluye entendimiento de KPIs, diseño de visualizaciones, conexión a modelo o datos validados,\npublicación controlada, validación funcional y documentación mínima.\nP: ¿DataBridge ofrece soporte después de entregar el proyecto?\nSí. El soporte se ofrece mediante planes Managed BI o acuerdos específicos de mantenimiento, con\nprioridades, SLAs y canales definidos.\nP: ¿Quién define si un KPI es correcto?\nDataBridge implementa y valida técnicamente, pero la aprobación funcional debe realizarla el Data\nOwner o responsable de negocio designado por el cliente.\nP: ¿Se pueden agregar cambios durante el proyecto?\nSí, pero deben evaluarse como cambio de alcance, impacto en tiempo, costo, prioridad y\ndependencias.\nP: ¿Los documentos son obligatorios?\nSí para entregas productivas. La documentación mínima reduce dependencia de personas y facilita\nsoporte, auditoría y evolución.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEste catálogo entra en vigencia a partir de Julio de 2026 y aplica a propuestas,"
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 2,
+    "text": "as y facilita\nsoporte, auditoría y evolución.\nSECCIÓN 15 - DISPOSICIONES FINALES Y REVISIÓN DEL\nDOCUMENTO\n15.1 Vigencia\nEste catálogo entra en vigencia a partir de Julio de 2026 y aplica a propuestas, entregas y operaciones\nde servicios BI gestionados por DataBridge BI Solutions.\n15.2 Responsabilidades\nRol\nResponsabilidad\nHead of BI Services\nMantener y aprobar el catálogo.\nCommercial Lead\nUsar el catálogo como referencia comercial.\nProject Lead\nAlinear alcance, entregables y criterios de aceptación.\nBI Delivery Lead\nGarantizar que los servicios se ejecuten con estándares técnicos.\nClient Sponsor\nAprobar prioridades, accesos y aceptación final.\n15.3 Ciclo de revisión\n- Revisión formal cada seis meses.\n- Actualización ante nuevos servicios o cambios de herramientas.\n- Revisión posterior a feedback comercial o operativo recurrente.\n- Ajustes cuando se modifiquen SLAs o planes de servicio.\n15.4 Historial de versiones\nVersión\nFecha\nAutor\nDescripción\n1.0.0\nJulio 2026\nHead of BI Services\nVersión inicial del Catálogo de\nServicios y SLAs BI."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 10,
+    "chunk_id": 3,
+    "text": "ión inicial del Catálogo de\nServicios y SLAs BI."
+  },
+  {
+    "source": "06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf",
+    "page": 11,
+    "chunk_id": 1,
+    "text": "DataBridge BI Solutions - Catálogo de Servicios y SLAs BI\nInterno - Uso Comercial y Operativo\nVersión 1.0.0 | Julio 2026\nPágina 11\n15.5 Declaración final\nUn servicio BI exitoso no termina cuando se publica un reporte. Termina cuando el cliente puede\nconfiar en sus métricas, entender su información, operar la solución y tomar mejores decisiones con\nella.\nDataBridge BI Solutions convierte servicios de datos en valor de negocio medible."
+  }
+]

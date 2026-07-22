@@ -2,7 +2,8 @@ def split_text(
     text: str,
     chunk_size: int = 1200,
     chunk_overlap: int = 200,
-) -> list"""
+) -> list:
+    """
     Simple character-based text splitter.
 
     Good enough for a small documentation corpus.
@@ -30,7 +31,8 @@ def create_chunks(
     documents: list[dict],
     chunk_size: int = 1200,
     chunk_overlap: int = 200,
-) -> list"""
+) -> list:
+    """
     Converts page-level documents into smaller chunks.
     """
     all_chunks = []
