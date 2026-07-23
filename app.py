@@ -74,9 +74,13 @@ if st.button("Consultar documentación", type="primary"):
     st.subheader("Respuesta")
     st.write(result["answer"])
 
-    st.subheader("Fuentes recuperadas")
-    for source in result["sources"]:
-        st.markdown(
-            f"- **{source['source']}**, página {source['page']} "
-            f"(score: {source['score']})"
+    if result["sources"]:
+        st.subheader("Fuentes recuperadas")
+        for source in result["sources"]:
+            st.markdown(
+                f"- **{source['source']}**, página {source['page']} "
+                f"(score: {source['score']})"
         )
+    else:
+        st.info("No se consultaron fuentes documentales para esta respuesta.")
+
