@@ -10,25 +10,30 @@ La solución implementa una arquitectura *RAG* (Retrieval-Augmented Generation),
 
 ## Tabla de contenidos
 
-- #descripción-general-del-proyecto
-- #problema-que-resuelve
-- #base-documental-utilizada
-- #arquitectura-de-la-solución-implementada
-- #tecnologías-y-herramientas-utilizadas
-- #estructura-del-proyecto
-- #instrucciones-para-ejecutar-el-proyecto
-- #construcción-del-índice-documental
-- #ejecución-de-la-aplicación
-- #ejemplos-de-preguntas-que-el-agente-puede-responder
-- #ejemplos-de-respuestas-generadas-por-el-agente
-- #control-de-consultas-no-documentales
-- #deploy-de-la-aplicación
-- #evidencia-del-deploy
-- #requisitos-del-challenge-cubiertos
-- #consideraciones-de-seguridad
-- #estado-actual-del-proyecto
-- #autor
-- #licencia
+## 📑 Índice
+
+- [Descripción General del Proyecto](#descripción-general-del-proyecto)
+- [Problema que Resuelve](#problema-que-resuelve)
+- [Base Documental Utilizada](#base-documental-utilizada)
+- [Arquitectura de la Solución Implementada](#arquitectura-de-la-solución-implementada)
+- [Tecnologías y Herramientas Utilizadas](#tecnologías-y-herramientas-utilizadas)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Instrucciones para Ejecutar el Proyecto](#instrucciones-para-ejecutar-el-proyecto)
+  - [Construcción del Índice Documental](#construcción-del-índice-documental)
+  - [Ejecución de la Aplicación](#ejecución-de-la-aplicación)
+- [Ejemplos de Preguntas que el Agente Puede Responder](#ejemplos-de-preguntas-que-el-agente-puede-responder)
+- [Ejemplos de Respuestas Generadas por el Agente](#ejemplos-de-respuestas-generadas-por-el-agente)
+- [Control de Consultas No Documentales](#control-de-consultas-no-documentales)
+- [Deploy de la Aplicación](#deploy-de-la-aplicación)
+  - [Configuración de Secretos en Streamlit Community Cloud](#configuración-de-secretos-en-streamlit-community-cloud)
+  - [Evidencia del Deploy](#evidencia-del-deploy)
+  - [Evidencia de las Preguntas](#evidencia-de-las-preguntas)
+- [Comandos Útiles](#comandos-útiles)
+- [Consideraciones de Seguridad](#consideraciones-de-seguridad)
+- [Estado Actual del Proyecto](#estado-actual-del-proyecto)
+- [Autor](#autor)
+- [Licencia](#licencia)
+
 
 ---
 
@@ -215,58 +220,58 @@ databridge-bi-agent/
 
 ### 1. Clonar el repositorio
 
-bash
+```bash
 git clone https://github.com/GuillermoFloresDev/databridge-bi-agent
 cd databridge-bi-agent
-
+```
 
 ### 2. Crear entorno virtual
 
 En Windows:
 
-bash
+```bash
 python -m venv .venv
 .venv\Scripts\activate
-
+```
 
 En Linux o macOS:
 
-bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 
 ### 3. Instalar dependencias
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Crear archivo .env
 
 En Linux o macOS:
 
-bash
+```bash
 cp .env.example .env
-
+```
 
 En Windows PowerShell:
 
-powershell
+```powershell
 Copy-Item .env.example .env
-
+```
 
 ### 5. Configurar API Key de Cohere
 
 Editar el archivo .env y agregar la API Key real de Cohere.
 
-env
+```env
 COHERE_API_KEY=tu_api_key_real_de_cohere
 COHERE_EMBED_MODEL=embed-v4.0
 COHERE_CHAT_MODEL=command-r-plus-08-2024
 TOP_K=5
 MIN_RELEVANCE_SCORE=0.23
-
+```
 
 > Importante: el archivo .env no debe subirse al repositorio.
 
@@ -276,9 +281,9 @@ MIN_RELEVANCE_SCORE=0.23
 
 Si los archivos de storage/ no existen o deseas regenerarlos, ejecutar:
 
-bash
+```bash
 python build_index.py
-
+```
 
 Este comando realiza los siguientes pasos:
 
@@ -314,9 +319,9 @@ Embeddings: storage\embeddings.npy
 
 Para levantar la aplicación en local:
 
-bash
+```bash
 streamlit run app.py
-
+```
 
 La aplicación se abrirá normalmente en:
 
@@ -619,13 +624,13 @@ En Streamlit Community Cloud, los secretos deben configurarse desde la sección 
 
 Ejemplo de configuración:
 
-toml
+```toml
 COHERE_API_KEY = "tu_api_key_real_de_cohere"
 COHERE_EMBED_MODEL = "embed-v4.0"
 COHERE_CHAT_MODEL = "command-r-plus-08-2024"
 TOP_K = "5"
 MIN_RELEVANCE_SCORE = "0.23"
-
+```
 
 No se debe subir el archivo .env al repositorio.
 
@@ -635,55 +640,52 @@ No se debe subir el archivo .env al repositorio.
 
 Captura de pantalla de la aplicación desplegada:
 
-text
-screenshots/prueba_despliegue_1.png
-screenshots/prueba_despliegue_2.png
+![Deploy 1](screenshots/prueba_despliegue_1.png)
+![Deploy 2](screenshots/prueba_despliegue_2.png)
 
 ---
 
 ## Evidencia de las preguntas
 
-Captura de pantalla de la aplicación desplegada:
+Captura de pantalla de las preguntas respondidas por el agente:
 
-text
-screenshots/prueba_pregunta_1.png
-screenshots/prueba_pregunta_2.png
-screenshots/prueba_pregunta_3.png
-screenshots/prueba_pregunta_4.png
-screenshots/prueba_pregunta_5.png
+![Respuesta 1](screenshots/prueba_pregunta_1.png)
+![Respuesta 2](screenshots/prueba_pregunta_2.png)
+![Respuesta 3](screenshots/prueba_pregunta_3.png)
+![Respuesta 4](screenshots/prueba_pregunta_4.png)
+![Respuesta 5](screenshots/prueba_pregunta_5.png)
 
 ---
-
 
 ## Comandos útiles
 
 ### Regenerar índice
 
-bash
+```bash
 python build_index.py
-
+```
 
 ### Ejecutar app local
 
-bash
+```bash
 streamlit run app.py
-
+```
 
 ### Subir cambios a GitHub
 
-bash
+```bash
 git add .
 git commit -m "docs: update README"
 git push
-
+```
 
 ### Forzar subida de archivos del índice si storage/ está en .gitignore
 
-bash
+```bash
 git add -f storage/chunks.json storage/embeddings.npy
 git commit -m "fix: add generated vector index for deployment"
 git push
-
+```
 
 ---
 
@@ -695,13 +697,13 @@ El repositorio debe incluir únicamente .env.example como referencia de configur
 
 Ejemplo de .env.example:
 
-env
+```env
 COHERE_API_KEY=your_cohere_api_key_here
 COHERE_EMBED_MODEL=embed-v4.0
 COHERE_CHAT_MODEL=command-r-plus-08-2024
 TOP_K=5
 MIN_RELEVANCE_SCORE=0.23
-
+```
 
 ---
 
