@@ -1,39 +1,63 @@
 # DataBridge BI Assistant
 
-DataBridge BI Assistant es un agente inteligente desarrollado como proyecto final del challenge Alura Agente de Alura Latam y Oracle Next Education.
+DataBridge BI Assistant es un agente inteligente desarrollado para consultar documentación corporativa de una empresa ficticia de Business Intelligence llamada *DataBridge BI Solutions*.
 
-El objetivo del proyecto es permitir que colaboradores de una empresa ficticia de Business Intelligence consulten documentación corporativa mediante preguntas en lenguaje natural.
+El proyecto fue creado como parte del *Challenge Alura*. El objetivo principal es demostrar cómo un agente de IA puede responder preguntas en lenguaje natural utilizando documentos PDF como fuente de conocimiento.
 
-## Empresa ficticia
+La solución implementa una arquitectura RAG, Retrieval-Augmented Generation, utilizando documentos internos en PDF, embeddings semánticos, búsqueda vectorial local y generación de respuestas con Cohere.
 
-DataBridge BI Solutions es una consultora especializada en Business Intelligence, ingeniería de datos, Power BI, modelado semántico, gobierno de datos y soporte analítico.
+---
 
-## Documentos utilizados
+## Descripción general del proyecto
 
-La base de conocimiento está formada por 6 documentos PDF:
+DataBridge BI Solutions es una consultora ficticia especializada en:
 
-1. Manual de Onboarding para Nuevos Consultores BI
-2. Guía Oficial de Modelado Semántico y Power BI
-3. Guía Oficial de Ingeniería de Datos
-4. Arquitectura de Soluciones BI y Mapa de Dominios Analíticos
-5. Protocolo de Incidentes de Datos y Reportes BI
-6. Catálogo de Servicios y SLAs BI
+- Business Intelligence.
+- Power BI.
+- Modelado semántico.
+- Ingeniería de datos.
+- Gobierno de datos.
+- Calidad de datos.
+- Soporte y operación de soluciones BI.
 
-## Arquitectura
+El agente permite hacer preguntas sobre la documentación interna de la empresa y recibir respuestas basadas en los documentos cargados.
+
+Ejemplos de uso:
+
+- Consultar estándares de nomenclatura DAX.
+- Entender cómo se clasifican incidentes BI.
+- Revisar procesos de onboarding.
+- Consultar servicios y SLAs.
+- Explorar la arquitectura analítica de la empresa.
+- Revisar reglas de calidad e ingeniería de datos.
+
+---
+
+## Problema que resuelve
+
+En muchas organizaciones, la documentación técnica, operativa y comercial se encuentra distribuida en múltiples archivos PDF, manuales, guías y protocolos. Esto dificulta que nuevos colaboradores o usuarios internos encuentren rápidamente respuestas confiables.
+
+Este proyecto resuelve ese problema creando un agente capaz de:
+
+1. Leer documentos PDF.
+2. Procesar su contenido.
+3. Dividir el texto en fragmentos consultables.
+4. Crear embeddings semánticos.
+5. Recuperar los fragmentos más relevantes ante una pregunta.
+6. Generar una respuesta clara utilizando el contexto documental.
+7. Mostrar las fuentes utilizadas.
+
+---
+
+## Base documental utilizada
+
+La base de conocimiento está formada por 6 documentos PDF generados para la empresa ficticia *DataBridge BI Solutions*:
 
 ```text
-Usuario
-   ↓
-Streamlit App
-   ↓
-Pregunta en lenguaje natural
-   ↓
-Embedding de la pregunta con Cohere
-   ↓
-Búsqueda semántica local con NumPy
-   ↓
-Chunks relevantes de los documentos
-   ↓
-Cohere Chat
-   ↓
-Respuesta fundamentada
+docs/
+├── 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf
+├── 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf
+├── 03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf
+├── 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf
+├── 05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf
+└── 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf
