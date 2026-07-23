@@ -74,11 +74,11 @@ Esto genera problemas como:
 Este proyecto soluciona ese problema mediante un agente RAG que puede:
 
 1. Leer documentos PDF.
-2. Extraer y procesar texto.
+2. Extraer y procesar o.
 3. Dividir el contenido en fragmentos.
 4. Generar embeddings semánticos.
 5. Recuperar los fragmentos más relevantes ante una pregunta.
-6. Generar una respuesta clara y contextualizada.
+6. Generar una respuesta clara y conualizada.
 7. Mostrar las fuentes utilizadas para responder.
 
 ---
@@ -87,7 +87,7 @@ Este proyecto soluciona ese problema mediante un agente RAG que puede:
 
 La base de conocimiento está formada por 6 documentos PDF generados para la empresa ficticia *DataBridge BI Solutions*.
 
-text
+
 docs/
 ├── 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf
 ├── 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf
@@ -114,7 +114,7 @@ docs/
 
 La solución utiliza una arquitectura RAG simple y liviana, diseñada para funcionar localmente y también en alternativas gratuitas de despliegue como Streamlit Community Cloud.
 
-text
+
 Usuario
    ↓
 Interfaz web Streamlit
@@ -127,7 +127,7 @@ Búsqueda semántica local con NumPy
    ↓
 Recuperación de chunks relevantes
    ↓
-Prompt con contexto documental
+Prompt con cono documental
    ↓
 Cohere Chat
    ↓
@@ -140,12 +140,12 @@ Respuesta + fuentes consultadas
 
 El proyecto incluye el script build_index.py, encargado de preparar la base documental.
 
-text
+
 PDFs en docs/
    ↓
-Extracción de texto con PyPDF
+Extracción de o con PyPDF
    ↓
-División del texto en chunks
+División del o en chunks
    ↓
 Generación de embeddings con Cohere
    ↓
@@ -154,7 +154,7 @@ Almacenamiento local en storage/
 
 Los archivos generados son:
 
-text
+
 storage/
 ├── chunks.json
 └── embeddings.npy
@@ -171,7 +171,7 @@ Estos archivos permiten que la aplicación consulte los documentos sin tener que
 | Python | Lenguaje principal del proyecto. |
 | Streamlit | Interfaz web interactiva para el agente. |
 | Cohere API | Generación de embeddings y respuestas del modelo conversacional. |
-| PyPDF | Extracción de texto desde documentos PDF. |
+| PyPDF | Extracción de o desde documentos PDF. |
 | NumPy | Cálculo de similitud semántica entre vectores. |
 | python-dotenv | Manejo de variables de entorno en ejecución local. |
 | Git y GitHub | Control de versiones y publicación del repositorio. |
@@ -181,7 +181,7 @@ Estos archivos permiten que la aplicación consulte los documentos sin tener que
 
 ## Estructura del proyecto
 
-text
+
 databridge-bi-agent/
 │
 ├── app.py
@@ -206,7 +206,7 @@ databridge-bi-agent/
 └── src/
     ├── __init__.py
     ├── document_loader.py
-    ├── text_splitter.py
+    ├── _splitter.py
     ├── cohere_client.py
     ├── retriever.py
     ├── rag_chain.py
@@ -288,17 +288,17 @@ python build_index.py
 Este comando realiza los siguientes pasos:
 
 1. Lee los PDFs ubicados en la carpeta docs/.
-2. Extrae el texto página por página.
+2. Extrae el o página por página.
 3. Divide el contenido en chunks.
 4. Genera embeddings con Cohere.
 5. Guarda los chunks y embeddings en la carpeta storage/.
 
 ### Ejemplo de salida esperada
 
-text
+
 Loading PDF documents...
-Loaded 77 PDF pages with text.
-Creating text chunks...
+Loaded 77 PDF pages with .
+Creating  chunks...
 Created 165 chunks.
 Creating embeddings with Cohere...
 Embedding batch 1 (32/165)
@@ -325,7 +325,7 @@ streamlit run app.py
 
 La aplicación se abrirá normalmente en:
 
-text
+
 http://localhost:8501
 
 
@@ -337,31 +337,31 @@ http://localhost:8501
 
 ### Pregunta 1
 
-text
+
 ¿Qué debe hacer un consultor en sus primeros 30 días?
 
 
 ### Pregunta 2
 
-text
+
 ¿Cómo deben nombrarse las medidas DAX?
 
 
 ### Pregunta 3
 
-text
+
 ¿Qué se considera un incidente SEV-1?
 
 
 ### Pregunta 4
 
-text
+
 ¿Cuáles son las capas de la arquitectura BI?
 
 
 ### Pregunta 5
 
-text
+
 ¿Cómo deben nombrarse las medidas DAX?
 
 
@@ -375,13 +375,13 @@ text
 
 *Pregunta:*
 
-text
+
 Soy un nuevo consultor Bi en la empresa,  ayer fue mi primer día, que debo hacer los primeros días?
 
 
 *Respuesta generada por el agente: *
 
-text
+
 Durante tus primeros días en DataBridge BI Solutions, se espera que te familiarices con el entorno y las herramientas de trabajo, y que comiences a adquirir conocimientos sobre los proyectos y procesos de la empresa. Aquí te proporciono una guía de lo que debes hacer en esta etapa inicial:
 
 Día 1: Dedícate a configurar tus accesos, cuentas y canales de comunicación. Esto es fundamental para poder trabajar de manera efectiva.
@@ -399,13 +399,13 @@ Recuerda que la productividad plena se espera de manera progresiva durante los p
 
 *Fuentes consultadas:*
 
-text
+
 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf: páginas 2, 3, 10, 11
 
 
 *Fuentes recuperadas:*
 
-text
+
 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf, página 10 (score: 0.547)
 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf, página 3 (score: 0.5409)
 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf, página 1 (score: 0.5397)
@@ -419,29 +419,29 @@ text
 
 *Pregunta:*
 
-text
+
 Cual es la arquitectura BI que debo seguir?
 
 
 *Respuesta generada por el agente:*
 
-text
+
 La arquitectura BI de DataBridge BI Solutions se define en el documento "Arquitectura de Soluciones BI y Mapa de Dominios Analíticos", versión 1.0.0, emitido en julio de 2026. Este documento es de uso interno y técnico restringido, y su propósito es servir como referencia canónica para consultores BI, Data Engineers, Analytics Engineers, Project Leads, arquitectos de datos y otros stakeholders técnicos.
 
 La arquitectura BI de DataBridge tiene como objetivo ordenar el camino que recorren los datos desde su origen hasta la toma de decisiones de negocio, sin crear complejidad innecesaria. Esto se logra a través de una serie de capas, dominios, responsabilidades y métricas bien definidas.
 
-El documento incluye una tabla de contenidos que abarca diversos aspectos de la arquitectura BI, como principios arquitectónicos, diagrama textual, capas de la solución analítica, mapa de dominios, catálogo de componentes, dependencias, herramientas y tecnologías homologadas, estrategia de workspaces, seguridad, observabilidad, ownership y roadmap técnico.
+El documento incluye una tabla de contenidos que abarca diversos aspectos de la arquitectura BI, como principios arquitectónicos, diagrama ual, capas de la solución analítica, mapa de dominios, catálogo de componentes, dependencias, herramientas y tecnologías homologadas, estrategia de workspaces, seguridad, observabilidad, ownership y roadmap técnico.
 
 
 *Fuentes consultadas:*
 
-text
+
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, páginas 2, 3, 10.
 
 
 *Fuentes recuperadas:*
 
-text
+
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 10 (score: 0.503)
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 10 (score: 0.4905)
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 2 (score: 0.4708)
@@ -455,14 +455,14 @@ text
 
 *Pregunta:*
 
-text
+
 Como debo nombrar las medidas DAX?, me darías ejemplos?
 
 
 *Respuesta generada por el agente:*
 
-text
-Las medidas DAX deben seguir una serie de estándares y convenciones de nomenclatura para garantizar su claridad y usabilidad. Aquí te proporciono una guía basada en el contexto proporcionado:
+
+Las medidas DAX deben seguir una serie de estándares y convenciones de nomenclatura para garantizar su claridad y usabilidad. Aquí te proporciono una guía basada en el cono proporcionado:
 
 Claridad y Comprensión: Los nombres de las medidas deben ser claros y comprensibles para el negocio. Evita términos técnicos complejos y utiliza un lenguaje sencillo. Por ejemplo, en lugar de "Medida_Ventas_Acumuladas", utiliza "Ventas Totales".
 Evitar Nombres Genéricos: No utilices nombres genéricos como "Medida", "Cálculo", "Prueba" o similares. Cada medida debe tener un nombre descriptivo que indique su propósito.
@@ -482,13 +482,13 @@ Ventas_Mensuales_Junio_2023
 
 *Fuentes consultadas:*
 
-text
+
 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf, página 7, 8.
 
 
 *Fuentes recuperadas:*
 
-text
+
 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf, página 7 (score: 0.5385)
 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf, página 7 (score: 0.5219)
 03_Guia_Oficial_Ingenieria_de_Datos_DataBridge_BI_Solutions.pdf, página 19 (score: 0.4515)
@@ -502,14 +502,14 @@ text
 
 *Pregunta:*
 
-text
+
 Cuáles son las capas de la arquitectura BI?
 
 
 *Respuesta generada por el agente:*
 
-text
-La arquitectura de soluciones BI de DataBridge BI Solutions se compone de varias capas, aunque no se especifica el número exacto ni sus nombres en el contexto proporcionado. Sin embargo, se puede inferir la existencia de las siguientes capas:
+
+La arquitectura de soluciones BI de DataBridge BI Solutions se compone de varias capas, aunque no se especifica el número exacto ni sus nombres en el cono proporcionado. Sin embargo, se puede inferir la existencia de las siguientes capas:
 
 Capa de fuentes de datos: Incluye sistemas como ERP, CRM, POS, Excel, APIs, SharePoint y SQL.
 Capa de ingesta de datos: Donde se realiza la ingesta de datos en batch o de manera incremental.
@@ -521,13 +521,13 @@ Capa de visualización: Que incluye Power BI Service con sus apps, reports, dash
 
 *Fuentes consultadas:*
 
-text
+
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 4.
 
 
 *Fuentes recuperadas:*
 
-text
+
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 2 (score: 0.5078)
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 10 (score: 0.5015)
 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf, página 10 (score: 0.4861)
@@ -541,13 +541,13 @@ text
 
 *Pregunta:*
 
-text
+
 Qué incluye el plan Enterprise BI?
 
 
 *Respuesta generada por el agente:*
 
-text
+
 El plan Enterprise BI está orientado a organizaciones con múltiples dominios y necesidades de reporting crítico. Incluye los siguientes elementos:
 
 Arquitectura BI
@@ -560,13 +560,13 @@ Capacitación
 
 *Fuentes consultadas:*
 
-text
+
 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf, página 7
 
 
 *Fuentes recuperadas:*
 
-text
+
 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf, página 7 (score: 0.5232)
 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf, página 9 (score: 0.4531)
 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf, página 10 (score: 0.4509)
@@ -582,7 +582,7 @@ El agente incluye una capa simple de clasificación de consultas para evitar res
 
 Por ejemplo, si el usuario escribe:
 
-text
+
 Hola
 
 
@@ -590,7 +590,7 @@ El agente responde con un saludo y explica para qué fue construido, sin consult
 
 Respuesta esperada:
 
-text
+
 ¡Hola! Soy DataBridge BI Assistant. Puedo ayudarte a consultar la documentación interna de DataBridge BI Solutions. Puedes preguntarme sobre medidas DAX, incidentes BI, arquitectura analítica, onboarding, ingeniería de datos o servicios y SLAs.
 
 
@@ -612,7 +612,7 @@ El challenge no exige obligatoriamente el despliegue en OCI, por lo que se eligi
 
 URL pública de la aplicación:
 
-text
+
 https://databridge-bi-agent-challenge-alura.streamlit.app/
 
 
@@ -709,7 +709,7 @@ MIN_RELEVANCE_SCORE=0.23
 
 ## Estado actual del proyecto
 
-text
+
 [x] Documentos PDF generados
 [x] Lectura de PDFs implementada
 [x] División en chunks implementada
@@ -729,13 +729,13 @@ text
 
 Proyecto desarrollado por:
 
-text
+
 Guillermo Flores
 
 
 Repositorio:
 
-text
+
 https://github.com/GuillermoFloresDev/databridge-bi-agent
 
 
