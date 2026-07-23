@@ -87,7 +87,7 @@ Este proyecto soluciona ese problema mediante un agente RAG que puede:
 
 La base de conocimiento está formada por 6 documentos PDF generados para la empresa ficticia *DataBridge BI Solutions*.
 
-
+```text
 docs/
 ├── 01_Manual_Onboarding_Consultores_BI_DataBridge_BI_Solutions.pdf
 ├── 02_Guia_Oficial_Modelado_Semantico_y_PowerBI_DataBridge_BI_Solutions.pdf
@@ -95,7 +95,7 @@ docs/
 ├── 04_Arquitectura_Soluciones_BI_y_Mapa_Dominios_Analiticos_DataBridge_BI_Solutions.pdf
 ├── 05_Protocolo_Incidentes_Datos_y_Reportes_BI_DataBridge_BI_Solutions.pdf
 └── 06_Catalogo_Servicios_y_SLAs_BI_DataBridge_BI_Solutions.pdf
-
+```
 
 ### Descripción de documentos
 
@@ -114,7 +114,7 @@ docs/
 
 La solución utiliza una arquitectura RAG simple y liviana, diseñada para funcionar localmente y también en alternativas gratuitas de despliegue como Streamlit Community Cloud.
 
-
+```text
 Usuario
    ↓
 Interfaz web Streamlit
@@ -134,13 +134,13 @@ Cohere Chat
 Respuesta generada
    ↓
 Respuesta + fuentes consultadas
-
+```
 
 ### Flujo de procesamiento documental
 
 El proyecto incluye el script build_index.py, encargado de preparar la base documental.
 
-
+```text
 PDFs en docs/
    ↓
 Extracción de o con PyPDF
@@ -150,15 +150,15 @@ División del o en chunks
 Generación de embeddings con Cohere
    ↓
 Almacenamiento local en storage/
-
+```
 
 Los archivos generados son:
 
-
+```text
 storage/
 ├── chunks.json
 └── embeddings.npy
-
+```
 
 Estos archivos permiten que la aplicación consulte los documentos sin tener que recalcular los embeddings en cada ejecución.
 
@@ -181,7 +181,7 @@ Estos archivos permiten que la aplicación consulte los documentos sin tener que
 
 ## Estructura del proyecto
 
-
+```text
 databridge-bi-agent/
 │
 ├── app.py
@@ -212,7 +212,7 @@ databridge-bi-agent/
     ├── rag_chain.py
     ├── query_classifier.py
     └── prompts.py
-
+```
 
 ---
 
@@ -295,7 +295,7 @@ Este comando realiza los siguientes pasos:
 
 ### Ejemplo de salida esperada
 
-
+```text
 Loading PDF documents...
 Loaded 77 PDF pages with .
 Creating  chunks...
@@ -311,7 +311,7 @@ Saving chunks and embeddings...
 Index created successfully.
 Chunks: storage\chunks.json
 Embeddings: storage\embeddings.npy
-
+```
 
 ---
 
@@ -640,7 +640,10 @@ No se debe subir el archivo .env al repositorio.
 
 Captura de pantalla de la aplicación desplegada:
 
+- Despliegue 1
 ![Deploy 1](screenshots/prueba_despliegue_1.png)
+
+- Despliegue 2
 ![Deploy 2](screenshots/prueba_despliegue_2.png)
 
 ---
@@ -649,11 +652,25 @@ Captura de pantalla de la aplicación desplegada:
 
 Captura de pantalla de las preguntas respondidas por el agente:
 
+- Pregunta 1
 ![Respuesta 1](screenshots/prueba_pregunta_1.png)
+
+
+- Pregunta 2
 ![Respuesta 2](screenshots/prueba_pregunta_2.png)
+
+
+- Pregunta 3
 ![Respuesta 3](screenshots/prueba_pregunta_3.png)
+
+
+- Pregunta 4
 ![Respuesta 4](screenshots/prueba_pregunta_4.png)
+
+
+- Pregunta 5
 ![Respuesta 5](screenshots/prueba_pregunta_5.png)
+
 
 ---
 
@@ -709,7 +726,7 @@ MIN_RELEVANCE_SCORE=0.23
 
 ## Estado actual del proyecto
 
-
+```text
 [x] Documentos PDF generados
 [x] Lectura de PDFs implementada
 [x] División en chunks implementada
@@ -721,7 +738,7 @@ MIN_RELEVANCE_SCORE=0.23
 [x] Ejecución local validada
 [x] Deploy final publicado
 [x] Capturas de pantalla agregada
-
+```
 
 ---
 
